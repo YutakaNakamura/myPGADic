@@ -1,0 +1,4 @@
+clkwiz_clk_wiz_0_0_clk_wiz.v,verilog,xil_defaultlib,../../../bd/clkwiz/ip/clkwiz_clk_wiz_0_0/clkwiz_clk_wiz_0_0_clk_wiz.v,incdir="$ref_dir/../../../../DisplayTest.srcs/sources_1/bd/clkwiz/ipshared/85a3"incdir="../../../../DisplayTest.srcs/sources_1/bd/clkwiz/ipshared/85a3"
+clkwiz_clk_wiz_0_0.v,verilog,xil_defaultlib,../../../bd/clkwiz/ip/clkwiz_clk_wiz_0_0/clkwiz_clk_wiz_0_0.v,incdir="$ref_dir/../../../../DisplayTest.srcs/sources_1/bd/clkwiz/ipshared/85a3"incdir="../../../../DisplayTest.srcs/sources_1/bd/clkwiz/ipshared/85a3"
+clkwiz.v,verilog,xil_defaultlib,../../../bd/clkwiz/sim/clkwiz.v,incdir="$ref_dir/../../../../DisplayTest.srcs/sources_1/bd/clkwiz/ipshared/85a3"incdir="../../../../DisplayTest.srcs/sources_1/bd/clkwiz/ipshared/85a3"
+glbl.v,Verilog,xil_defaultlib,glbl.v

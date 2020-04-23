@@ -1,0 +1,435 @@
+/*
+
+Vivado v2014.4
+SW Build 1071353 on Tue Nov 18 18:06:20 MST 2014
+Process ID: 7624
+
+Current time: 	10/29/16 8:25:23 PM
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 7
+Version: 6.1
+Architecture: x86
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.8.0_05 32-bit
+Java home: 	C:/Xilinx/Vivado/2014.4/tps/win32/jre
+
+User name: 	Administrator
+User directory: E:/Xilinx/Artix-7/Workspace/project_led
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+Vivado preferences path: C:/Users/Administrator.HYD4PFV30C7MW2T/AppData/Roaming/Xilinx/Vivado/2014.4/vivado.ini
+Vivado layouts directory: C:/Users/Administrator.HYD4PFV30C7MW2T/AppData/Roaming/Xilinx/Vivado/2014.4/layouts/application
+
+GUI allocated memory:	141 MB
+GUI max memory:		227 MB
+Engine allocated memory: 529 MB
+
+*/
+
+// TclEventType: START_GUI
+// HColorUtils.generateUniqueColorPalette (num colors: 55) elapsed time: 1.1s
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// cm:N (ch:JFrame):  Open Project : addNotify
+// [GUI Memory]: 43 MB (+42725kb) [00:00:15]
+// [Engine Memory]: 508 MB (+380762kb) [00:00:15]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/Xilinx/Artix-7/Workspace/project_led/project_led.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/Xilinx/Artix-7/Workspace/project_led/project_led.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 552 MB. GUI used memory: 27 MB. Current time: 10/29/16 8:25:25 PM
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 45 MB (+1927kb) [00:00:20]
+// [Engine Memory]: 564 MB (+58740kb) [00:00:20]
+// [GUI Memory]: 76 MB (+32710kb) [00:00:22]
+// [Engine Memory]: 573 MB (+10129kb) [00:00:22]
+// [Engine Memory]: 587 MB (+13918kb) [00:00:23]
+// [Engine Memory]: 606 MB (+20877kb) [00:00:25]
+// [Engine Memory]: 611 MB (+4452kb) [00:00:26]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'. 
+// [GUI Memory]: 86 MB (+10568kb) [00:00:27]
+// [Engine Memory]: 614 MB (+3088kb) [00:00:27]
+// [GUI Memory]: 87 MB (+1027kb) [00:00:27]
+// [GUI Memory]: 87 MB (+147kb) [00:00:28]
+// [GUI Memory]: 88 MB (+1027kb) [00:00:28]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 614 MB (+155kb) [00:00:28]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 615 MB (+1437kb) [00:00:29]
+// [Engine Memory]: 615 MB (+258kb) [00:00:29]
+// [Engine Memory]: 616 MB (+708kb) [00:00:29]
+// [Engine Memory]: 616 MB (+376kb) [00:00:29]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 617 MB (+483kb) [00:00:29]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 617 MB (+311kb) [00:00:30]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 617 MB (+253kb) [00:00:30]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 618 MB (+999kb) [00:00:30]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 619 MB (+442kb) [00:00:30]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 621 MB (+2654kb) [00:00:30]
+// [Engine Memory]: 622 MB (+434kb) [00:00:30]
+// [Engine Memory]: 622 MB (+720kb) [00:00:30]
+// [Engine Memory]: 623 MB (+905kb) [00:00:30]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 624 MB (+724kb) [00:00:30]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 624 MB (+262kb) [00:00:30]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 624 MB (+135kb) [00:00:31]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 625 MB (+409kb) [00:00:31]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project_led; location: E:/Xilinx/Artix-7/Workspace/project_led; part: xc7a35tftg256-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:16 . Memory (MB): peak = 751.184 ; gain = 85.027 
+// [Engine Memory]: 625 MB (+532kb) [00:00:31]
+dismissDialog("Open Project"); // cm:N (ch:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 625 MB (+176kb) [00:00:32]
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, ch:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 626 MB (+909kb) [00:00:32]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 627 MB (+667kb) [00:00:34]
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 25); // w:Y (v:I, ch:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 26, false); // w:Y (v:I, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+// [Engine Memory]: 630 MB (+3350kb) [00:00:36]
+// [Engine Memory]: 630 MB (+229kb) [00:00:37]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 26, false); // w:Y (v:I, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, "Open New Target..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// [GUI Memory]: 90 MB (+1289kb) [00:00:43]
+// Tcl Message: open_hw 
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD
+// ae:g (ch:JFrame): Open New Hardware Target: addNotify
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+dismissDialog("Open New Hardware Target"); // ae:g (ch:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h:k (JPanel:JComponent, ch:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// 'e' command handler elapsed time: 3 seconds
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2014.4   **** Build date : Nov 18 2014-17:53:48     ** Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.  INFO: hw_server application started INFO: Use Ctrl-C to exit hw_server application   ****** Xilinx hw_server v2014.4   **** Build date : Nov 18 2014-17:53:48     ** Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.  INFO: hw_server application started INFO: Use Ctrl-C to exit hw_server application   
+// Tcl Message: open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0] 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/00000000000000 
+// Tcl Message: set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace/project_led/project_led.runs/impl_1/led_top.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace/project_led/project_led.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0). 
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, ch:JFrame)
+// [Engine Memory]: 634 MB (+3829kb) [00:00:53]
+// HMemoryUtils.trashcanNow. Engine heap size: 635 MB. GUI used memory: 36 MB. Current time: 10/29/16 8:26:00 PM
+// PAPropertyPanels.initPanels (xc7a35t_0) elapsed time: 0.2s
+// [Engine Memory]: 636 MB (+2412kb) [00:00:55]
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Not programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // f:au (JViewport:JComponent, ch:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_CONFIG_MEMORY, "Add Configuration Memory Device..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_CONFIG_MEMORY
+// aw:N (ch:JFrame): Add Configuration Memory Device: addNotify
+// [Engine Memory]: 636 MB (+69kb) [00:00:58]
+// 'a' command handler elapsed time: 5 seconds
+dismissDialog("Add Configuration Memory Device"); // aw:N (ch:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Not programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // f:au (JViewport:JComponent, ch:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ac (ch:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ac)
+// cm:N (ch:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ac (ch:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace/project_led/project_led.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace/project_led/project_led.runs/impl_1/led_top.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-32] Done pin status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 751.184 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'p' command handler elapsed time: 7 seconds
+dismissDialog("Program Device"); // cm:N (ch:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // f:au (JViewport:JComponent, ch:JFrame) - Popup Trigger - Node
+// [GUI Memory]: 91 MB (+1537kb) [00:01:16]
+selectMenuItem(PAResourceCommand.PACommandNames_REFRESH_DEVICE, "Refresh Device"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REFRESH_DEVICE
+// [GUI Memory]: 92 MB (+1083kb) [00:01:20]
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // f:au (JViewport:JComponent, ch:JFrame) - Popup Trigger - Node
+// [Engine Memory]: 637 MB (+1081kb) [00:01:24]
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_CONFIG_MEMORY, "Add Configuration Memory Device..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_CONFIG_MEMORY
+// aw:N (ch:JFrame): Add Configuration Memory Device: addNotify
+selectComboBox(PAResourceAtoD.CfgMemPartChooser_MANUFACTURER_CHOOSER, "Micron", 1); // w:l (JPanel:JComponent, aw:N)
+selectComboBox(PAResourceAtoD.CfgMemPartChooser_TYPE_CHOOSER, "spi", 2); // D:l (JPanel:JComponent, aw:N)
+selectComboBox(PAResourceAtoD.CfgMemPartChooser_WIDTH_CHOOSER, "x1_x2_x4", 1); // H:l (JPanel:JComponent, aw:N)
+selectComboBox(PAResourceAtoD.CfgMemPartChooser_DENSITY_CHOOSER, "64", 7); // o:l (JPanel:JComponent, aw:N)
+selectTable(PAResourceAtoD.CfgMemPartChooser_TABLE, "n25q64-3.3v-spi-x1_x2_x4 ; n25q64-3.3v ; Micron ;  ; n25q ; spi ; 64 ; x1_x2_x4", 1, "Micron", 2); // h:u (JViewport:JComponent, aw:N)
+// [Engine Memory]: 638 MB (+913kb) [00:01:39]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aw:N)
+// 'a' command handler elapsed time: 15 seconds
+dismissDialog("Add Configuration Memory Device"); // aw:N (ch:JFrame)
+// TclEventType: HW_CFGMEM_CREATE
+// TclEventType: HW_CFGMEM_PART_CHANGE
+// Tcl Message: create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev  [lindex [get_cfgmem_parts {n25q64-3.3v-spi-x1_x2_x4}] 0] 
+// Tcl Message: set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]] 
+// Tcl Message: set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]] 
+// Tcl Message: set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]] 
+// Tcl Message: set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// al:bE (ch:JFrame): Add Configuration Memory Device Completed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, al:bE)
+// [Engine Memory]: 639 MB (+409kb) [00:01:45]
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_CONFIG_MEMORY
+// au:ac (ch:JFrame): Program Configuration Memory Device: addNotify
+dismissDialog("Add Configuration Memory Device Completed"); // al:bE (ch:JFrame)
+// [GUI Memory]: 94 MB (+1871kb) [00:01:48]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, au:ac)
+// HOptionPane Error: "Please specify a configuration file name (Invalid configuration File Name)"
+selectButton("PAResourceOtoP.ProgramCfgMemDialog_SPECIFY_FILE_NAME_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, R:JDialog)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, au:ac)
+// 'F' command handler elapsed time: 8 seconds
+dismissDialog("Program Configuration Memory Device"); // au:ac (ch:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // Z:JMenuItem (ag:JPopupMenu, Popup:JWindow)
+// [Engine Memory]: 640 MB (+1400kb) [00:01:59]
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // W:an (F:R, ch:JFrame)
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // W:an (F:R, ch:JFrame)
+// Elapsed time: 10 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "pwd", true); // W:an (F:R, ch:JFrame)
+// Tcl Command: 'pwd'
+// Tcl Message: pwd 
+// Tcl Message: E:/Xilinx/Artix-7/Workspace/project_led 
+// [Engine Memory]: 640 MB (+323kb) [00:02:14]
+// [GUI Memory]: 94 MB (+644kb) [00:02:19]
+// [Engine Memory]: 645 MB (+4526kb) [00:02:19]
+// [GUI Memory]: 95 MB (+66kb) [00:02:24]
+// Elapsed time: 15 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "cd"); // W:an (F:R, ch:JFrame)
+// [GUI Memory]: 98 MB (+3831kb) [00:02:29]
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // Z:JMenuItem (ag:JPopupMenu, Popup:JWindow)
+applyEnter(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "cd project_led.runs"); // W:an (F:R, ch:JFrame)
+// Tcl Command: 'cd project_led.runs'
+// Tcl Message: cd project_led.runs 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "cd"); // W:an (F:R, ch:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // Z:JMenuItem (ag:JPopupMenu, Popup:JWindow)
+applyEnter(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "cd impl_1"); // W:an (F:R, ch:JFrame)
+// Tcl Command: 'cd impl_1'
+// Tcl Message: cd impl_1 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "pwd", true); // W:an (F:R, ch:JFrame)
+// Tcl Command: 'pwd'
+// Tcl Message: pwd 
+// Tcl Message: E:/Xilinx/Artix-7/Workspace/project_led/project_led.runs/impl_1 
+// [Engine Memory]: 645 MB (+458kb) [00:02:42]
+// [Engine Memory]: 646 MB (+1236kb) [00:02:44]
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // Z:JMenuItem (ag:JPopupMenu, Popup:JWindow)
+// Tcl Command: 'write_cfgmem -format mcs -interface spix4 -size 64 -loadbit "up 0 led_top.bit" -file led_top.mcs'
+// Tcl Message: write_cfgmem -format mcs -interface spix4 -size 64 -loadbit "up 0 led_top.bit" -file led_top.mcs 
+// Tcl Message: Creating config memory files... Creating bitstream load up from address 0x00000000 Loading bitfile led_top.bit 
+// [Engine Memory]: 715 MB (+72364kb) [00:03:20]
+// cm:N (ch:JFrame):  Tcl Command Line : addNotify
+// Tcl Message: ERROR: [Vivado 12-3735] SPI_BUSWIDTH property is set to "1" on bitfile led_top.bit. This property has to be set to "4" to generate a configuration memory file for the SPIX4 interface. Please ensure that a valid value has been set for the property BITSTREAM.Config.SPI_buswidth and rerun this command. 
+// Tcl Message: ERROR: [Common 17-39] 'write_cfgmem' failed due to earlier errors. 
+// [Engine Memory]: 715 MB (+61kb) [00:03:20]
+// Elapsed time: 30 seconds
+dismissDialog("Tcl Command Line"); // cm:N (ch:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 1, 86); // dT:J (JPanel:JComponent, ch:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 715 MB. GUI used memory: 38 MB. Current time: 10/29/16 8:28:30 PM
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Bitstream Settings]", 23, false); // w:Y (v:I, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_BITSTREAM_SETTINGS
+// Project Settings: addNotify
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, k:bn)
+dismissDialog("Project Settings"); // k:bn (ch:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 861, 84); // dT:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 865, 84, false, false, false, false, true); // dT:J (JPanel:JComponent, ch:JFrame) - Double Click
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 1088, 85); // dT:J (JPanel:JComponent, ch:JFrame)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 868, 88); // dT:J (JPanel:JComponent, ch:JFrame)
+typeControlKey(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, "RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR", 'c'); // dT:J (JPanel:JComponent, ch:JFrame)
+// [GUI Memory]: 98 MB (+29kb) [00:05:30]
+// [GUI Memory]: 98 MB (+48kb) [00:05:35]
+// [GUI Memory]: 98 MB (+151kb) [00:05:40]
+// [GUI Memory]: 98 MB (+54kb) [00:05:45]
+// [GUI Memory]: 99 MB (+160kb) [00:05:50]
+// [GUI Memory]: 100 MB (+1196kb) [00:05:55]
+// [GUI Memory]: 100 MB (+158kb) [00:06:00]
+// [GUI Memory]: 100 MB (+54kb) [00:06:05]
+// [GUI Memory]: 100 MB (+153kb) [00:06:10]
+// [GUI Memory]: 100 MB (+46kb) [00:06:15]
+// Elapsed time: 1189 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // W:JMenu (JPopupMenu:JComponent, ch:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device"); // W:JMenu (JPopupMenu:JComponent, ch:JFrame)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Customize Commands"); // W:JMenu (JPopupMenu:JComponent, ch:JFrame)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Customize Commands"); // W:JMenu (JPopupMenu:JComponent, ch:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device"); // W:JMenu (JPopupMenu:JComponent, ch:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device"); // W:JMenu (JPopupMenu:JComponent, ch:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_OPEN_HARDWARE_DASHBOARD, "Open Hardware Dashboard"); // W:JMenu (JPopupMenu:JComponent, ch:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_OPEN_HARDWARE_DASHBOARD, "Open Hardware Dashboard"); // W:JMenu (JPopupMenu:JComponent, ch:JFrame)
+selectMenuItem((HResource) null, "XADC (System Monitor)"); // Z:JMenuItem (JPopupMenu:JComponent, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_DASHBOARD
+// TclEventType: HW_SYSMON_CHANGE
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // W:JMenu (JPopupMenu:JComponent, ch:JFrame)
+selectMenu(PAResourceCommand.PACommandNames_OPEN_HARDWARE_DASHBOARD, "Open Hardware Dashboard"); // W:JMenu (JPopupMenu:JComponent, ch:JFrame)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Customize Commands"); // W:JMenu (JPopupMenu:JComponent, ch:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_PROJECT_SETTINGS, "Project Settings..."); // Z:JMenuItem (JPopupMenu:JComponent, ch:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // R:JideMenu (CommandMenuBar:CommandBar, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROJECT_SETTINGS
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, k:bn)Project Settings: addNotify
+// TclEventType: HW_SYSMON_CHANGE
+selectButton("Simulation", "Simulation"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:bn)
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_ELABORATION, "Elaboration", 1); // g:JideTabbedPane (JPanel:JComponent, k:bn)
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_SIMULATION, "Simulation", 2); // g:JideTabbedPane (JPanel:JComponent, k:bn)
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_NETLIST, "Netlist", 3); // g:JideTabbedPane (JPanel:JComponent, k:bn)
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_ADVANCED, "Advanced", 4); // g:JideTabbedPane (JPanel:JComponent, k:bn)
+selectButton("Synthesis", "Synthesis"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:bn)
+selectButton("Implementation", "Implementation"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:bn)
+selectButton("Bitstream", "Bitstream"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:bn)
+selectButton("Implementation", "Implementation"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:bn)
+selectButton("Bitstream", "Bitstream"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:bn)
+selectButton("IP", "IP"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:bn)
+dismissDialog("Project Settings"); // k:bn (ch:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Bitstream Settings]", 23, false); // w:Y (v:I, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_BITSTREAM_SETTINGS
+selectButton("IP", "IP"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:bn)Project Settings: addNotify
+// TclEventType: HW_SYSMON_CHANGE
+dismissDialog("Project Settings"); // k:bn (ch:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 24, false, false, false, false, true, false); // w:Y (v:I, ch:JFrame) - Popup Trigger
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 24, false); // w:Y (v:I, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: HW_SYSMON_CHANGE
+// cm:N (ch:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: HW_SYSMON_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Sat Oct 29 20:50:07 2016] Launched impl_1... Run output will be captured here: E:/Xilinx/Artix-7/Workspace/project_led/project_led.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cm:N (ch:JFrame)
+// TclEventType: HW_SYSMON_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 27, false); // w:Y (v:I, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// TclEventType: HW_SYSMON_CHANGE
+selectMenuItem((HResource) null, "xc7a35t_0"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ac (ch:JFrame): Program Device: addNotify
+// TclEventType: HW_SYSMON_CHANGE
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, aC:ac)
+dismissDialog("Program Device"); // aC:ac (ch:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: HW_SYSMON_CHANGE
+// Elapsed time: 153 seconds
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, ch:JFrame)
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "connect", true); // W:an (F:R, ch:JFrame)
+applyEnter(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "connect_hw_server"); // W:an (F:R, ch:JFrame)
+// Tcl Command: 'connect_hw_server'
+// Tcl Message: connect_hw_server 
+// Tcl Message: ERROR: [Labtools 27-3] Attempt to create a duplicate server handle localhost 
+// TclEventType: HW_SYSMON_CHANGE
+// Elapsed time: 112 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Open Target]", 26, false); // w:Y (v:I, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+// TclEventType: HW_SYSMON_CHANGE
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, "Open New Target..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD
+// ae:g (ch:JFrame): Open New Hardware Target: addNotify
+// TclEventType: HW_SYSMON_CHANGE
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+dismissDialog("Open New Hardware Target"); // ae:g (ch:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_REFRESH_DEVICE, "Refresh device"); // h:k (JPanel:JComponent, ch:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REFRESH_DEVICE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: ERROR: [Labtools 27-2312] Device xc7a35t_0 is no longer available. Check cable connectivity and that the target board is powered up then use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target. Use open_hw_target to re-register the hardware device. 
+// TclEventType: HW_SYSMON_CHANGE
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (2) ; Programmed", 2, "xc7a35t_0 (2)", 0, true, false, false, false, true, false); // f:au (JViewport:JComponent, ch:JFrame) - Popup Trigger - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "n25q64-3.3v-spi-x1_x2_x4_0 ;   ", 4, "n25q64-3.3v-spi-x1_x2_x4_0", 0, false); // f:au (JViewport:JComponent, ch:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "n25q64-3.3v-spi-x1_x2_x4_0 ;   ", 4, "n25q64-3.3v-spi-x1_x2_x4_0", 0, false); // f:au (JViewport:JComponent, ch:JFrame)
+expandTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "n25q64-3.3v-spi-x1_x2_x4_0 ;   ", 4); // f:au (JViewport:JComponent, ch:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "n25q64-3.3v-spi-x1_x2_x4_0 ;   ", 4, "n25q64-3.3v-spi-x1_x2_x4_0", 0, false, false, false, false, false, true); // f:au (JViewport:JComponent, ch:JFrame) - Double Click
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "n25q64-3.3v-spi-x1_x2_x4_0 ;   ", 4, "n25q64-3.3v-spi-x1_x2_x4_0", 0, false); // f:au (JViewport:JComponent, ch:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "n25q64-3.3v-spi-x1_x2_x4_0 ;   ", 4, "n25q64-3.3v-spi-x1_x2_x4_0", 0, false, false, false, false, false, true); // f:au (JViewport:JComponent, ch:JFrame) - Double Click
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager]", 25, true); // w:Y (v:I, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager]", 25, true); // w:Y (v:I, ch:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Open Target]", 26, false); // w:Y (v:I, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, "Open New Target..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// TclEventType: HW_SYSMON_CHANGE
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD
+// ae:g (ch:JFrame): Open New Hardware Target: addNotify
+// TclEventType: HW_SYSMON_CHANGE
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// cm:N (ae:g):  Open Server : addNotify
+closeView(PAResourceOtoP.PAViews_SYSTEM_MONITOR, "System Monitor - XADC"); // j:aG
+// Tcl Message: disconnect_hw_server localhost 
+// Elapsed time: 13 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, cm:N)

@@ -1,0 +1,245 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Wed Oct 31 21:26:42 2018
+# Process ID: 1620
+# Current directory: E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7604 E:\Xilinx\Artix-7\Workspace-DDR3\Test06_project_usb_uart\usb_uart\usb_uart.xpr
+# Log file: E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/vivado.log
+# Journal file: E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 756.715 ; gain = 118.473
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.4
+  **** Build date : Dec 14 2016-22:58:11
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/00000000000000
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.runs/impl_1/uart_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.runs/impl_1/uart_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test04-project_CY7C68013/project_led.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test04-project_CY7C68013/project_led.runs/impl_1/USB_FPGA.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0_inst"}]]
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[0]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[1]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[2]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[3]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[4]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[5]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[6]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[7]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r1[7]_i_1_n_0 was not found in the design.
+WARNING: Simulation object sys_clk_IBUF was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[0]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[1]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[2]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[3]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[4]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[5]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[6]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[7]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r1[7]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_tx_path_u/send_data was not found in the design.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test07_project_vga_adv7123/Test06_project_vga_adv7123.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test07_project_vga_adv7123/Test06_project_vga_adv7123.runs/impl_1/VGA_Test.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Xilinx/00000000000000.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/00000000000000
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.4
+  **** Build date : Dec 14 2016-22:58:11
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/00000000000000
+set_property PROGRAM.FILE {E:\Xilinx\Artix-7\Workspace-DDR3\Test07_project_vga_adv7123\Test06_project_vga_adv7123.runs\impl_1\VGA_Test.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {E:\Xilinx\Artix-7\Workspace-DDR3\Test07_project_vga_adv7123\Test06_project_vga_adv7123.runs\impl_1\debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+WARNING: [Labtools 27-1975] The device xc7a35t (JTAG device index = 0) has an ILA core referenced in the associated probes file(s) E:\Xilinx\Artix-7\Workspace-DDR3\Test07_project_vga_adv7123\Test06_project_vga_adv7123.runs\impl_1\debug_nets.ltx,
+which is not detectable in the design at the specified location user chain=1, index=0, bscan switch=0.
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test07_project_vga_adv7123/Test06_project_vga_adv7123.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test07_project_vga_adv7123/Test06_project_vga_adv7123.runs/impl_1/VGA_Test.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[0]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[1]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[2]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[3]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[4]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[5]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[6]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[7]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r1[7]_i_1_n_0 was not found in the design.
+WARNING: Simulation object sys_clk_IBUF was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[0]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[1]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[2]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[3]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[4]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[5]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[6]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[7]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r1[7]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_tx_path_u/send_data was not found in the design.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test07_project_vga_adv7123/Test06_project_vga_adv7123.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.runs/impl_1/uart_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7a35t_0 and the probes file(s) E:/Xilinx/Artix-7/Workspace-DDR3/Test07_project_vga_adv7123/Test06_project_vga_adv7123.runs/impl_1/debug_nets.ltx.
+The device design has 0 ILA core(s) and 0 VIO core(s). The probes file(s) have 1 ILA core(s) and 0 VIO core(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test04-project_CY7C68013/project_led.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test04-project_CY7C68013/project_led.runs/impl_1/USB_FPGA.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 908.668 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Xilinx/00000000000000.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/00000000000000
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.4
+  **** Build date : Dec 14 2016-22:58:11
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/00000000000000
+set_property PROGRAM.FILE {E:\Xilinx\Artix-7\Workspace-DDR3\Test04-project_CY7C68013\project_led.runs\impl_1\USB_FPGA.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {E:\Xilinx\Artix-7\Workspace-DDR3\Test04-project_CY7C68013\project_led.runs\impl_1\debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+WARNING: [Labtools 27-1975] The device xc7a35t (JTAG device index = 0) has an ILA core referenced in the associated probes file(s) E:\Xilinx\Artix-7\Workspace-DDR3\Test04-project_CY7C68013\project_led.runs\impl_1\debug_nets.ltx,
+which is not detectable in the design at the specified location user chain=1, index=0, bscan switch=0.
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test04-project_CY7C68013/project_led.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test04-project_CY7C68013/project_led.runs/impl_1/USB_FPGA.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0_inst"}]]
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[0]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[1]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[2]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[3]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[4]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[5]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[6]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[7]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r1[7]_i_1_n_0 was not found in the design.
+WARNING: Simulation object sys_clk_IBUF was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[0]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[1]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[2]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[3]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[4]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[5]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[6]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r0[7]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_rx_path_u/uart_rx_data_o_r1[7]_i_1_n_0 was not found in the design.
+WARNING: Simulation object uart_tx_path_u/send_data was not found in the design.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test04-project_CY7C68013/project_led.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.runs/impl_1/uart_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7a35t_0 and the probes file(s) E:/Xilinx/Artix-7/Workspace-DDR3/Test04-project_CY7C68013/project_led.runs/impl_1/debug_nets.ltx.
+The device design has 0 ILA core(s) and 0 VIO core(s). The probes file(s) have 1 ILA core(s) and 0 VIO core(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test07_project_vga_adv7123/Test06_project_vga_adv7123.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test07_project_vga_adv7123/Test06_project_vga_adv7123.runs/impl_1/VGA_Test.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+close_hw
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 31 21:36:30 2018...

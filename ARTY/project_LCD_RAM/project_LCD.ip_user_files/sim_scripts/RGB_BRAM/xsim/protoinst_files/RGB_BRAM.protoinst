@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"RGB_BRAM": {
+			"proto_instances": {
+			}
+		}
+	}
+}

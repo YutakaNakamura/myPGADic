@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1581430164">
+  <File Type="BITSTR-BMM" Name="HPS_wrapper_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="HPS_wrapper_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="HPS_wrapper_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="HPS_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="HPS_wrapper.tcl"/>
+  <File Type="OPT-TIMING" Name="HPS_wrapper_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="HPS_wrapper_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="HPS_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="HPS_wrapper_reports.tcl"/>
+  <File Type="OPT-DRC" Name="HPS_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="HPS_wrapper.hwdef"/>
+  <File Type="PWROPT-DCP" Name="HPS_wrapper_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="HPS_wrapper_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="HPS_wrapper_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="HPS_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="HPS_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="HPS_wrapper_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="HPS_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="HPS_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="HPS_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="HPS_wrapper_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="HPS_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="HPS_wrapper.bgn"/>
+  <File Type="PLACE-TIMING" Name="HPS_wrapper_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="HPS_wrapper_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="HPS_wrapper.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="HPS_wrapper_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="HPS_wrapper_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="HPS_wrapper_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="HPS_wrapper.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="HPS_wrapper_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="HPS_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="HPS_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="HPS_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="HPS_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="HPS_wrapper_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="HPS_wrapper.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="HPS_wrapper_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="HPS_wrapper.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="HPS_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="HPS_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="HPS_wrapper.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="HPS_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="HPS_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="HPS_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="HPS_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="HPS_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="HPS_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="HPS_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="HPS_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="HPS_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="HPS_wrapper_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="HPS_wrapper_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="HPS_wrapper_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="HPS_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="HPS_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="HPS_wrapper_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="HPS_wrapper_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="HPS_wrapper_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="HPS_wrapper_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="HPS_wrapper_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="HPS_wrapper.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="HPS_wrapper_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="HPS_wrapper.rbt"/>
+  <File Type="BITSTR-NKY" Name="HPS_wrapper.nky"/>
+  <File Type="BG-DRC" Name="HPS_wrapper.drc"/>
+  <File Type="RDI-RDI" Name="HPS_wrapper.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/BRAM_RGB/BRAM_RGB.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/PLL/PLL.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/HPS/HPS.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/BRAM_RGB/hdl/BRAM_RGB_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/PLL/hdl/PLL_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/data_out.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ARTY/project_LCD/project_LCD.srcs/sources_1/new/data_out.v"/>
+        <Attr Name="ImportTime" Val="1581348862"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/lcd_pattern_generator.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ARTY/project_LCD/project_LCD.srcs/sources_1/new/lcd_pattern_generator.v"/>
+        <Attr Name="ImportTime" Val="1581339366"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/prescaler.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ARTY/project_LCD/project_LCD.srcs/sources_1/new/prescaler.v"/>
+        <Attr Name="ImportTime" Val="1581339366"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/test_lcd.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ARTY/project_LCD/project_LCD.srcs/sources_1/new/test_lcd.v"/>
+        <Attr Name="ImportTime" Val="1581340539"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ARTY/project_LCD/project_LCD.srcs/sources_1/new/top.v"/>
+        <Attr Name="ImportTime" Val="1581341947"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/HPS/hdl/HPS_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/RGB_BRAM/RGB_BRAM.bd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ARTY/project_LCD/project_LCD.srcs/sources_1/bd/RGB_BRAM/RGB_BRAM.bd"/>
+        <Attr Name="ImportTime" Val="1581348390"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/RGB_BRAM/hdl/RGB_BRAM_wrapper.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ARTY/project_LCD/project_LCD.srcs/sources_1/bd/RGB_BRAM/hdl/RGB_BRAM_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1581348390"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_PLL/design_PLL.bd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ARTY/project_LCD/project_LCD.srcs/sources_1/bd/design_PLL/design_PLL.bd"/>
+        <Attr Name="ImportTime" Val="1581340607"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_PLL/hdl/design_PLL_wrapper.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ARTY/project_LCD/project_LCD.srcs/sources_1/bd/design_PLL/hdl/design_PLL_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1581340624"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/BRAM_R_Init.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ARTY/project_LCD/project_LCD.srcs/sources_1/new/BRAM_R_Init.coe"/>
+        <Attr Name="ImportTime" Val="1581347309"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/BRAM_G_Init.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ARTY/project_LCD/project_LCD.srcs/sources_1/new/BRAM_G_Init.coe"/>
+        <Attr Name="ImportTime" Val="1581347309"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/BRAM_B_Init.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ARTY/project_LCD/project_LCD.srcs/sources_1/new/BRAM_B_Init.coe"/>
+        <Attr Name="ImportTime" Val="1581347309"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="HPS_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/project_LCD.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ARTY/project_LCD/project_LCD.srcs/constrs_1/new/project_LCD.xdc"/>
+        <Attr Name="ImportTime" Val="1581341924"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/project_LCD.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream">
+      <Option Id="BinFile">1</Option>
+    </Step>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="PLL_clk_wiz_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="BRAM_RGB_blk_mem_gen_R_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="BRAM_RGB_blk_mem_gen_R_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="BRAM_RGB_blk_mem_gen_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="HPS_processing_system7_0_0"/>
+</GenRun>

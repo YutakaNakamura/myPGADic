@@ -1,0 +1,3 @@
+blkmem_blk_mem_gen_0_0.v,verilog,xil_defaultlib,../../../bd/blkmem/ip/blkmem_blk_mem_gen_0_0/sim/blkmem_blk_mem_gen_0_0.v,
+blkmem.v,verilog,xil_defaultlib,../../../bd/blkmem/sim/blkmem.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

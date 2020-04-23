@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]E:\Xilinx\workspace\PYNQ_Z2\project_LCD_withZynq\project_LCD.sdk\FSBL\Debug\FSBL.elf
+	E:\Xilinx\workspace\PYNQ_Z2\project_LCD_withZynq\project_LCD.sdk\HPS_wrapper_hw_platform_0\HPS_wrapper.bit
+	E:\Xilinx\workspace\PYNQ_Z2\project_LCD_withZynq\project_LCD.sdk\UART_HelloWorld\Debug\UART_HelloWorld.elf
+}

@@ -1,0 +1,378 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a35tftg256-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6408 
+WARNING: [Synth 8-992] ADC_DATA is already implicitly declared earlier [E:/Xilinx/workspace/QM_Artix7DDR3CoreBoard/project_USB3/project_USB3.srcs/sources_1/new/top.v:114]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 394.773 ; gain = 112.754
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [E:/Xilinx/workspace/QM_Artix7DDR3CoreBoard/project_USB3/project_USB3.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BasicCounter' [E:/Xilinx/workspace/QM_Artix7DDR3CoreBoard/project_USB3/project_USB3.srcs/sources_1/new/BasicCounter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'BasicCounter' (1#1) [E:/Xilinx/workspace/QM_Artix7DDR3CoreBoard/project_USB3/project_USB3.srcs/sources_1/new/BasicCounter.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'top' (2#1) [E:/Xilinx/workspace/QM_Artix7DDR3CoreBoard/project_USB3/project_USB3.srcs/sources_1/new/top.v:23]
+WARNING: [Synth 8-3917] design top has port LED3 driven by constant 1
+WARNING: [Synth 8-3331] design BasicCounter has unconnected port ADCIN[7]
+WARNING: [Synth 8-3331] design BasicCounter has unconnected port ADCIN[6]
+WARNING: [Synth 8-3331] design BasicCounter has unconnected port ADCIN[5]
+WARNING: [Synth 8-3331] design BasicCounter has unconnected port ADCIN[4]
+WARNING: [Synth 8-3331] design BasicCounter has unconnected port ADCIN[3]
+WARNING: [Synth 8-3331] design BasicCounter has unconnected port ADCIN[2]
+WARNING: [Synth 8-3331] design BasicCounter has unconnected port ADCIN[1]
+WARNING: [Synth 8-3331] design BasicCounter has unconnected port ADCIN[0]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[64]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[63]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[62]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[61]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[60]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[59]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[41]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[40]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[39]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[38]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[37]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[36]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[35]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[33]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[32]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[31]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[14]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[13]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[12]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[11]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[10]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[9]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[8]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[7]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[6]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[5]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[4]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[3]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[2]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[1]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[0]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[64]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[63]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[62]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[61]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[60]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[59]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[58]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[48]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[47]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[46]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[45]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[44]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[43]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[42]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[41]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[40]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[39]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[38]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[37]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[36]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[35]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[34]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[33]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[32]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[31]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[30]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[29]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[28]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[27]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[26]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[25]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[24]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[23]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[22]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[21]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[20]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[19]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[18]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[17]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[16]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[15]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[14]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[13]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[12]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[11]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[10]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[9]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[8]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[7]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[6]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[5]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[4]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[3]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[2]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[1]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U8[0]
+WARNING: [Synth 8-3331] design top has unconnected port SW2
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 427.332 ; gain = 145.313
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin Counter:RESET to constant 0 [E:/Xilinx/workspace/QM_Artix7DDR3CoreBoard/project_USB3/project_USB3.srcs/sources_1/new/top.v:105]
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 427.332 ; gain = 145.313
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 427.332 ; gain = 145.313
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tftg256-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/Xilinx/workspace/QM_Artix7DDR3CoreBoard/project_USB3/project_USB3.srcs/constrs_1/new/QM_Artix7DDR3_Master.xdc]
+Finished Parsing XDC File [E:/Xilinx/workspace/QM_Artix7DDR3CoreBoard/project_USB3/project_USB3.srcs/constrs_1/new/QM_Artix7DDR3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/Xilinx/workspace/QM_Artix7DDR3CoreBoard/project_USB3/project_USB3.srcs/constrs_1/new/QM_Artix7DDR3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 738.316 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 738.320 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 738.320 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 738.320 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 738.320 ; gain = 456.301
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tftg256-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 738.320 ; gain = 456.301
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 738.320 ; gain = 456.301
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 738.320 ; gain = 456.301
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module BasicCounter 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3917] design top has port LED3 driven by constant 1
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[64]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[63]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[62]
+WARNING: [Synth 8-3331] design top has unconnected port IO_U7[61]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 738.320 ; gain = 456.301
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 748.566 ; gain = 466.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 748.566 ; gain = 466.547
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 758.098 ; gain = 476.078
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 758.098 ; gain = 476.078
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 758.098 ; gain = 476.078
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 758.098 ; gain = 476.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 758.098 ; gain = 476.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 758.098 ; gain = 476.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 758.098 ; gain = 476.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT1   |     1|
+|4     |FDRE   |    33|
+|5     |IBUF   |     2|
+|6     |OBUF   |    35|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------+-------------+------+
+|      |Instance  |Module       |Cells |
++------+----------+-------------+------+
+|1     |top       |             |    80|
+|2     |  Counter |BasicCounter |    41|
++------+----------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 758.098 ; gain = 476.078
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 97 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 758.098 ; gain = 165.090
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 758.098 ; gain = 476.078
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 767.277 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+17 Infos, 104 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 767.465 ; gain = 497.324
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 767.465 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'E:/Xilinx/workspace/QM_Artix7DDR3CoreBoard/project_USB3/project_USB3.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 18 21:36:16 2020...

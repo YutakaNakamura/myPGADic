@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <DashboardHolder activeDashboard="ILA">
+        <Dashboard columnResizable="1" key="ILA" rowResizable="0" title="ILA">
+            <Settings/>
+            <GadgetContainer boxAxis="1" count="2" height="647"
+                layout="JideBoxLayout" vgap="6" width="665">
+                <Gadget height="102" key="Trigger Capture Status" width="665"/>
+                <Gadget height="408" key="Basic Trigger Setup" width="665"/>
+                <Settings/>
+            </GadgetContainer>
+        </Dashboard>
+    </DashboardHolder>
+</component>

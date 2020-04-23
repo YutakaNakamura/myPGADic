@@ -1,0 +1,167 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Jan  6 14:12:24 2019
+# Process ID: 12392
+# Current directory: E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8052 E:\Xilinx\Artix-7\Workspace-DDR3-DB2\Test06_7SEG_Test\project_1.xpr
+# Log file: E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/vivado.log
+# Journal file: E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.xpr
+INFO: [Project 1-313] Project file moved from 'E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 805.672 ; gain = 122.402
+add_files -norecurse {E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/demo_control_module.v E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/smg_interface.v E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/smg_interface_demo.v E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/smg_scan_module.v E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/smg_encode_module.v E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/smg_control_module.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+file mkdir E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1
+file mkdir E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new
+close [ open E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc w ]
+add_files -fileset constrs_1 E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc
+launch_runs synth_1 -jobs 2
+[Sun Jan  6 14:14:34 2019] Launched synth_1...
+Run output will be captured here: E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tftg256-1
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7a35tftg256-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc]
+WARNING: [Vivado 12-584] No ports matched 'uart_rx'. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'uart_rx'. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'uart_tx'. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'uart_tx'. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sys_clk'. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sys_clk'. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sys_rst_n'. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sys_rst_n'. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 1237.621 ; gain = 386.609
+set_property target_constrs_file E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc [current_fileset -constrset]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {Scan_Sig[2]} {Scan_Sig[1]} {Scan_Sig[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {SMG_Data[7]} {SMG_Data[6]} {SMG_Data[5]} {SMG_Data[4]} {SMG_Data[3]} {SMG_Data[2]} {SMG_Data[1]} {SMG_Data[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list CLK]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list RSTn]]
+place_ports CLK N11
+place_ports RSTn E6
+save_constraints
+refresh_design
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sys_clk'. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sys_clk'. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sys_rst_n'. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sys_rst_n'. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+place_ports {Scan_Sig[2]} T8
+place_ports {Scan_Sig[1]} P10
+place_ports {Scan_Sig[0]} T10
+place_ports {Scan_Sig[0]} T9
+save_constraints
+place_ports {SMG_Data[0]} T10
+place_ports {SMG_Data[1]} K13
+place_ports {SMG_Data[2]} P11
+place_ports {SMG_Data[3]} R11
+place_ports {SMG_Data[4]} R10
+place_ports {SMG_Data[5]} N9
+place_ports {SMG_Data[6]} K12
+place_ports {SMG_Data[7]} P9
+save_constraints
+refresh_design
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sys_clk'. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sys_clk'. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sys_rst_n'. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sys_rst_n'. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Sun Jan  6 14:20:50 2019] Launched synth_1...
+Run output will be captured here: E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.runs/synth_1/runme.log
+[Sun Jan  6 14:20:50 2019] Launched impl_1...
+Run output will be captured here: E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.runs/impl_1/runme.log
+close_design
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+Warning: Cannot create '3000:arm' GDB server: 
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/00000000000000
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.runs/impl_1/smg_interface_demo.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.runs/impl_1/smg_interface_demo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+disconnect_hw_server localhost:3121
+reset_run synth_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jan  6 14:24:15 2019...

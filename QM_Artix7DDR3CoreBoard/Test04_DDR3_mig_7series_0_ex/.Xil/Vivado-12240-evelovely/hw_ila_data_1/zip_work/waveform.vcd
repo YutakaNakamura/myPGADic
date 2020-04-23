@@ -1,0 +1,710 @@
+$date
+        2017-Feb-20 23:03:23
+$end
+$version
+        Vivado v2016.4 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 1 " dbg_init_calib_complete $end
+$var reg 1 # dbg_wrlvl_start $end
+$var reg 1 $ dbg_wrlvl_done $end
+$var reg 1 % dbg_wrlvl_err $end
+$var reg 1 & dbg_pi_phaselock_start $end
+$var reg 1 ' dbg_pi_phaselocked_done $end
+$var reg 1 ( dbg_pi_phaselock_err $end
+$var reg 1 ) dbg_pi_dqsfound_start $end
+$var reg 1 * dbg_pi_dqsfound_done $end
+$var reg 1 + dbg_pi_dqsfound_err $end
+$var reg 2 , dbg_rdlvl_start [1:0] $end
+$var reg 2 . dbg_rdlvl_done [1:0] $end
+$var reg 2 0 dbg_rdlvl_err [1:0] $end
+$var reg 1 2 dbg_oclkdelay_calib_start $end
+$var reg 1 3 dbg_oclkdelay_calib_done $end
+$var reg 1 4 dbg_wrcal_start $end
+$var reg 1 5 dbg_wrcal_done $end
+$var reg 1 6 dbg_wrcal_err $end
+$var reg 6 7 dbg_phy_init_5_0 [5:0] $end
+$var reg 1 = dbg_rddata_valid_r $end
+$var reg 64 > dbg_rddata_r [63:0] $end
+$var reg 1 ~ dbg_fine_adjust_done_r $end
+$var reg 1 !" dbg_cmd_wdt_err_w $end
+$var reg 1 "" dbg_rd_wdt_err_w $end
+$var reg 1 #" dbg_wr_wdt_err_w $end
+$var reg 1 $" dbg_tg_compare_error_1 $end
+$var reg 1 %" dbg_cmp_data_valid $end
+$var reg 1 &" dbg_cmp_error $end
+$var reg 64 '" dbg_cmp_data_r [63:0] $end
+$var reg 8 g" dbg_dq_error_bytelane_cmp [7:0] $end
+$var reg 8 o" dbg_cumlative_dq_lane_error [7:0] $end
+$var reg 32 w" dbg_cmp_addr_i [31:0] $end
+$var reg 6 9# dbg_cmp_bl_i [5:0] $end
+$var reg 1 ?# dbg_mcb_cmd_full_i $end
+$var reg 1 @# dbg_mcb_wr_full_i $end
+$var reg 1 A# dbg_mcb_rd_empty_i $end
+$var reg 2 B# dbg_ddrx_ila_rdpath_765_764 [1:0] $end
+$var reg 5 D# dbg_wl_state_r [4:0] $end
+$var reg 4 I# dbg_dqs_cnt_r [3:0] $end
+$var reg 1 M# dbg_wl_edge_detect_valid_r $end
+$var reg 1 N# dbg_rd_data_edge_detect_r_by_dqs $end
+$var reg 6 O# dbg_wl_po_fine_cnt_by_dqs [5:0] $end
+$var reg 3 U# dbg_wl_po_coarse_cnt_by_dqs [2:0] $end
+$var reg 4 X# dbg_phy_oclkdelay_zfo [3:0] $end
+$var reg 6 \# dbg_ocal_fuzz2oneeighty [5:0] $end
+$var reg 6 b# dbg_ocal_fuzz2zero [5:0] $end
+$var reg 6 h# dbg_ocal_oneeighty2fuzz [5:0] $end
+$var reg 6 n# dbg_ocal_zero2fuzz [5:0] $end
+$var reg 3 t# dbg_ocal_oclkdelay_calib_cnt [2:0] $end
+$var reg 1 w# dbg_ocal_scan_win_not_found $end
+$var reg 1 x# dbg_wrcal_pat_data_match_r $end
+$var reg 1 y# dbg_wrcal_pat_data_match_valid_r $end
+$var reg 4 z# dbg_wrcal_dqs_cnt_r [3:0] $end
+$var reg 5 ~# cal2_state_r [4:0] $end
+$var reg 5 %$ not_empty_wait_cnt [4:0] $end
+$var reg 1 *$ dbg_early1_data $end
+$var reg 1 +$ dbg_early2_data $end
+$var reg 4 ,$ dbg_phy_oclkdelay_cal_57_54 [3:0] $end
+$var reg 54 0$ dbg_phy_wrlvl_128_75 [53:0] $end
+$var reg 27 f$ dbg_phy_wrlvl_155_129 [26:0] $end
+$var reg 12 #% dbg_pi_phase_locked_phy4lanes [11:0] $end
+$var reg 12 /% dbg_pi_dqs_found_lanes_phy4lanes [11:0] $end
+$var reg 12 ;% dbg_rd_data_offset [11:0] $end
+$var reg 6 G% dbg_cal1_state_r [5:0] $end
+$var reg 4 M% dbg_cal1_cnt_cpt_r [3:0] $end
+$var reg 8 Q% dbg_mux_rd_rise0_r [7:0] $end
+$var reg 8 Y% dbg_mux_rd_fall0_r [7:0] $end
+$var reg 8 a% dbg_mux_rd_rise1_r [7:0] $end
+$var reg 8 i% dbg_mux_rd_fall1_r [7:0] $end
+$var reg 8 q% dbg_mux_rd_rise2_r [7:0] $end
+$var reg 8 y% dbg_mux_rd_fall2_r [7:0] $end
+$var reg 8 #& dbg_mux_rd_rise3_r [7:0] $end
+$var reg 8 +& dbg_mux_rd_fall3_r [7:0] $end
+$var reg 1 3& dbg_rdlvl_pat_data_match_r $end
+$var reg 1 4& dbg_mux_rd_valid_r $end
+$var reg 6 5& dbg_cpt_first_edge_cnt_by_dqs [5:0] $end
+$var reg 6 ;& dbg_cpt_second_edge_cnt_by_dqs [5:0] $end
+$var reg 6 A& dbg_cpt_tap_cnt_by_dqs [5:0] $end
+$var reg 5 G& dbg_dq_idelay_tap_cnt_by_dqs [4:0] $end
+$var reg 12 L& dbg_dbg_calib_rd_data_offset_1 [11:0] $end
+$var reg 12 X& dbg_dbg_calib_rd_data_offset_2 [11:0] $end
+$var reg 6 d& dbg_data_offset [5:0] $end
+$var reg 6 j& dbg_data_offset_1 [5:0] $end
+$var reg 6 p& dbg_data_offset_2 [5:0] $end
+$var reg 108 v& dbg_cpt_first_edge_cnt [107:0] $end
+$var reg 108 &( dbg_cpt_second_edge_cnt [107:0] $end
+$var reg 108 4) dbg_cpt_tap_cnt [107:0] $end
+$var reg 90 B* dbg_dq_idelay_tap_cnt [89:0] $end
+$var reg 48 >+ dbg_prbs_rdlvl_left_edge_pb [47:0] $end
+$var reg 16 n+ dbg_prbs_rdlvl_left_loss_pb [15:0] $end
+$var reg 48 ~+ dbg_prbs_rdlvl_right_edge_pb [47:0] $end
+$var reg 16 P, dbg_prbs_rdlvl_right_gain_pb [15:0] $end
+$var reg 6 `, dbg_prbs_rdlvl_pi_counter_read_val [5:0] $end
+$var reg 6 f, dbg_prbs_rdlvl_prbs_dqs_tap_cnt_r [5:0] $end
+$var reg 1 l, dbg_prbs_rdlvl_prbs_found_1st_edge_r $end
+$var reg 1 m, dbg_prbs_rdlvl_prbs_found_2nd_edge_r $end
+$var reg 1 n, dbg_prbs_rdlvl_compare_err $end
+$var reg 1 o, dbg_prbs_rdlvl_phy_if_empty $end
+$var reg 1 p, dbg_prbs_rdlvl_prbs_rdlvl_start $end
+$var reg 1 q, dbg_prbs_rdlvl_prbs_rdlvl_done $end
+$var reg 5 r, dbg_prbs_rdlvl_prbs_dqs_cnt_r [4:0] $end
+$var reg 6 w, dbg_prbs_rdlvl_left_edge_pb_dqs_cnt [5:0] $end
+$var reg 6 }, dbg_prbs_rdlvl_right_edge_pb_dqs_cnt [5:0] $end
+$var reg 3 %- dbg_prbs_rdlvl_rd_victim_sel [2:0] $end
+$var reg 1 (- dbg_prbs_rdlvl_complex_victim_inc $end
+$var reg 6 )- dbg_prbs_rdlvl_right_gain_pb_dqs_cnt [5:0] $end
+$var reg 3 /- dbg_prbs_rdlvl_ref_bit [2:0] $end
+$var reg 6 2- dbg_prbs_rdlvl_prbs_state_r1 [5:0] $end
+$var reg 1 8- dbg_prbs_rdlvl_rd_valid_r2 $end
+$var reg 1 9- dbg_prbs_rdlvl_compare_err_r0 $end
+$var reg 1 :- dbg_prbs_rdlvl_compare_err_f0 $end
+$var reg 1 ;- dbg_prbs_rdlvl_compare_err_r1 $end
+$var reg 1 <- dbg_prbs_rdlvl_compare_err_f1 $end
+$var reg 1 =- dbg_prbs_rdlvl_compare_err_r2 $end
+$var reg 1 >- dbg_prbs_rdlvl_compare_err_f2 $end
+$var reg 1 ?- dbg_prbs_rdlvl_compare_err_r3 $end
+$var reg 1 @- dbg_prbs_rdlvl_compare_err_f3 $end
+$var reg 8 A- dbg_prbs_rdlvl_left_edge_found_pb [7:0] $end
+$var reg 8 I- dbg_prbs_rdlvl_right_edge_found_pb [7:0] $end
+$var reg 6 Q- dbg_prbs_rdlvl_largest_left_edge [5:0] $end
+$var reg 6 W- dbg_prbs_rdlvl_smallest_right_edge [5:0] $end
+$var reg 8 ]- dbg_prbs_rdlvl_fine_delay_incdec_pb [7:0] $end
+$var reg 1 e- dbg_prbs_rdlvl_fine_delay_sel $end
+$var reg 8 f- dbg_prbs_rdlvl_compare_err_pb_latch_r [7:0] $end
+$var reg 6 n- dbg_prbs_rdlvl_fine_pi_dec_cnt [5:0] $end
+$var reg 5 t- dbg_prbs_rdlvl_match_flag_and [4:0] $end
+$var reg 2 y- dbg_prbs_rdlvl_stage_cnt [1:0] $end
+$var reg 1 {- dbg_prbs_rdlvl_fine_inc_stage $end
+$var reg 1 |- dbg_prbs_rdlvl_compare_err_pb_and $end
+$var reg 1 }- dbg_prbs_rdlvl_right_edge_found $end
+$var reg 1 ~- dbg_prbs_rdlvl_fine_dly_error $end
+$var reg 1 !. dbg_ocal_lim_done $end
+$var reg 6 ". dbg_ocal_stg3_lim_left [5:0] $end
+$var reg 6 (. dbg_ocal_stg3_lim_right [5:0] $end
+$var reg 1 .. dbg_ocal_center_calib_start $end
+$var reg 8 /. dbg_wcal_mux_rd_rise0_r [7:0] $end
+$var reg 8 7. dbg_wcal_mux_rd_fall0_r [7:0] $end
+$var reg 8 ?. dbg_wcal_mux_rd_rise1_r [7:0] $end
+$var reg 8 G. dbg_wcal_mux_rd_fall1_r [7:0] $end
+$var reg 8 O. dbg_wcal_mux_rd_rise2_r [7:0] $end
+$var reg 8 W. dbg_wcal_mux_rd_fall2_r [7:0] $end
+$var reg 8 _. dbg_wcal_mux_rd_rise3_r [7:0] $end
+$var reg 8 g. dbg_wcal_mux_rd_fall3_r [7:0] $end
+$var reg 1 o. dbg_early1_data_match_r $end
+$var reg 1 p. dbg_early2_data_match_r $end
+$var reg 1 q. dbg_wcal_sanity_pat_data_match_valid_r $end
+$var reg 108 r. dbg_prbs_final_dqs_tap_cnt_r [107:0] $end
+$var reg 108 "0 dbg_prbs_first_edge_taps [107:0] $end
+$var reg 108 01 dbg_prbs_second_edge_taps [107:0] $end
+$var reg 1 >2 dbg_ocal_center_calib_done $end
+$var reg 54 ?2 dbg_phy_oclkdelay_cal_taps [53:0] $end
+$var reg 6 u2 dbg_ocal_tap_cnt [5:0] $end
+$var reg 12 {2 device_temp [11:0] $end
+$var reg 1 )3 _TRIGGER $end
+$var reg 1 *3 _WINDOW $end
+$var reg 1 +3 _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0"
+1#
+0$
+1%
+1&
+1'
+0(
+1)
+1*
+0+
+b0 ,
+b10 .
+b0 0
+02
+13
+04
+05
+06
+b111 7
+0=
+b0 >
+1~
+0!"
+0""
+0#"
+0$"
+0%"
+0&"
+b0 '"
+b0 g"
+b0 o"
+b0 w"
+b0 9#
+0?#
+0@#
+0A#
+b0 B#
+b1001 D#
+b0 I#
+1M#
+0N#
+b0 O#
+b111 U#
+b0 X#
+b0 \#
+b0 b#
+b0 h#
+b0 n#
+b0 t#
+0w#
+0x#
+1y#
+b0 z#
+b0 ~#
+b0 %$
+0*$
+0+$
+b0 ,$
+b0 0$
+b111 f$
+b1111 #%
+b1111 /%
+b1010 ;%
+b0 G%
+b0 M%
+b0 Q%
+b0 Y%
+b0 a%
+b0 i%
+b0 q%
+b0 y%
+b0 #&
+b0 +&
+03&
+14&
+b0 5&
+b0 ;&
+b0 A&
+b0 G&
+b0 L&
+b0 X&
+b0 d&
+b0 j&
+b0 p&
+b0 v&
+b0 &(
+b0 4)
+b0 B*
+b0 >+
+b0 n+
+b111111111111111111111111111111111111111111111111 ~+
+b0 P,
+b0 `,
+b0 f,
+0l,
+0m,
+0n,
+0o,
+0p,
+0q,
+b0 r,
+b0 w,
+b111111 },
+b0 %-
+0(-
+b0 )-
+b0 /-
+b0 2-
+08-
+09-
+0:-
+0;-
+0<-
+0=-
+0>-
+0?-
+0@-
+b0 A-
+b0 I-
+b0 Q-
+b111111 W-
+b0 ]-
+0e-
+b0 f-
+b0 n-
+b11111 t-
+b0 y-
+1{-
+0|-
+0}-
+0~-
+0!.
+b0 ".
+b0 (.
+0..
+b0 /.
+b0 7.
+b0 ?.
+b0 G.
+b0 O.
+b0 W.
+b0 _.
+b0 g.
+0o.
+0p.
+0q.
+b0 r.
+b0 "0
+b0 01
+0>2
+b0 ?2
+b0 u2
+b101010111111 {2
+1)3
+1*3
+0+3
+$end
+#1
+b111 D#
+#2
+b1000 D#
+0M#
+#13
+b1001 D#
+#14
+b1000 D#
+1M#
+#26
+b1001 D#
+#27
+b111 D#
+#28
+b1000 D#
+0M#
+#39
+b1001 D#
+#40
+b1000 D#
+1M#
+#52
+b1001 D#
+#53
+b111 D#
+#54
+b1000 D#
+0M#
+#65
+b1001 D#
+#66
+b1000 D#
+1M#
+#78
+b1001 D#
+#79
+b111 D#
+#80
+b1000 D#
+0M#
+#91
+b1001 D#
+#92
+b1000 D#
+1M#
+#104
+b1001 D#
+#105
+b111 D#
+#106
+b1000 D#
+0M#
+#117
+b1001 D#
+#118
+b1000 D#
+1M#
+#130
+b1001 D#
+#131
+b111 D#
+#132
+b1000 D#
+0M#
+#143
+b1001 D#
+#144
+b1000 D#
+1M#
+#156
+b1001 D#
+#157
+b111 D#
+#158
+b1000 D#
+0M#
+#169
+b1001 D#
+#170
+b1000 D#
+1M#
+#182
+b1001 D#
+#183
+b111 D#
+#184
+b1000 D#
+0M#
+#195
+b1001 D#
+#196
+b1000 D#
+1M#
+#208
+b1001 D#
+#209
+b111 D#
+#210
+b1000 D#
+0M#
+#221
+b1001 D#
+#222
+b1000 D#
+1M#
+#234
+b1001 D#
+#235
+b111 D#
+#236
+b1000 D#
+0M#
+#247
+b1001 D#
+#248
+b1000 D#
+1M#
+#260
+b1001 D#
+#261
+b111 D#
+#262
+b1000 D#
+0M#
+#273
+b1001 D#
+#274
+b1000 D#
+1M#
+#286
+b1001 D#
+#287
+b111 D#
+#288
+b1000 D#
+0M#
+#299
+b1001 D#
+#300
+b1000 D#
+1M#
+#312
+b1001 D#
+#313
+b111 D#
+#314
+b1000 D#
+0M#
+#325
+b1001 D#
+#326
+b1000 D#
+1M#
+#338
+b1001 D#
+#339
+b111 D#
+#340
+b1000 D#
+0M#
+#351
+b1001 D#
+#352
+b1000 D#
+1M#
+#364
+b1001 D#
+#365
+b111 D#
+#366
+b1000 D#
+0M#
+#377
+b1001 D#
+#378
+b1000 D#
+1M#
+#390
+b1001 D#
+#391
+b111 D#
+#392
+b1000 D#
+0M#
+#403
+b1001 D#
+#404
+b1000 D#
+1M#
+#416
+b1001 D#
+#417
+b111 D#
+#418
+b1000 D#
+0M#
+#429
+b1001 D#
+#430
+b1000 D#
+1M#
+#442
+b1001 D#
+#443
+b111 D#
+#444
+b1000 D#
+0M#
+#455
+b1001 D#
+#456
+b1000 D#
+1M#
+#468
+b1001 D#
+#469
+b111 D#
+#470
+b1000 D#
+0M#
+#481
+b1001 D#
+#482
+b1000 D#
+1M#
+#494
+b1001 D#
+#495
+b111 D#
+#496
+b1000 D#
+0M#
+#507
+b1001 D#
+#508
+b1000 D#
+1M#
+#520
+b1001 D#
+#521
+b111 D#
+#522
+b1000 D#
+0M#
+#533
+b1001 D#
+#534
+b1000 D#
+1M#
+#546
+b1001 D#
+#547
+b111 D#
+#548
+b1000 D#
+0M#
+#559
+b1001 D#
+#560
+b1000 D#
+1M#
+#572
+b1001 D#
+#573
+b0 D#
+#585
+b1 D#
+#586
+0M#
+#598
+b10 D#
+#599
+b11 D#
+#611
+b100 D#
+#624
+b1000 D#
+#637
+b1001 D#
+#638
+b1000 D#
+1M#
+#650
+b1001 D#
+#651
+b0 D#
+#663
+b1 D#
+#664
+0M#
+#676
+b10 D#
+#677
+b11 D#
+#689
+b100 D#
+#702
+b1000 D#
+#715
+b1001 D#
+#716
+b1000 D#
+1M#
+#728
+b1001 D#
+#729
+b0 D#
+#741
+b1 D#
+#742
+0M#
+#754
+b10 D#
+#755
+b11 D#
+#767
+b100 D#
+#780
+b1000 D#
+#793
+b1001 D#
+#794
+b1000 D#
+1M#
+#806
+b1001 D#
+#807
+b0 D#
+#819
+b1 D#
+#820
+0M#
+#832
+b10 D#
+#833
+b11 D#
+#845
+b100 D#
+#858
+b1000 D#
+#871
+b1001 D#
+#872
+b1000 D#
+1M#
+#884
+b1001 D#
+#885
+b0 D#
+#897
+b1 D#
+#898
+0M#
+#910
+b10 D#
+#911
+b11 D#
+#923
+b100 D#
+#936
+b1000 D#
+#949
+b1001 D#
+#950
+b1000 D#
+1M#
+#962
+b1001 D#
+#963
+b0 D#
+#975
+b1 D#
+#976
+0M#
+#988
+b10 D#
+#989
+b11 D#
+#1001
+b100 D#
+#1014
+b1000 D#

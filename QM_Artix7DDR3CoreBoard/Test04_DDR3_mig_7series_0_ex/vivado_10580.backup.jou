@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sat Feb 25 16:32:23 2017
+# Process ID: 10580
+# Current directory: E:/Xilinx/Artix-7/Workspace-DDR3/mig_7series_0_ex
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10868 E:\Xilinx\Artix-7\Workspace-DDR3\mig_7series_0_ex\mig_7series_0_ex.xpr
+# Log file: E:/Xilinx/Artix-7/Workspace-DDR3/mig_7series_0_ex/vivado.log
+# Journal file: E:/Xilinx/Artix-7/Workspace-DDR3/mig_7series_0_ex\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Xilinx/Artix-7/Workspace-DDR3/mig_7series_0_ex/mig_7series_0_ex.xpr
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+open_run synth_1 -name synth_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list sys_clk_i]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list sys_rst]]
+save_constraints
+reset_run impl_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/mig_7series_0_ex/mig_7series_0_ex.runs/impl_1/example_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/mig_7series_0_ex/mig_7series_0_ex.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/mig_7series_0_ex/mig_7series_0_ex.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/mig_7series_0_ex/mig_7series_0_ex.runs/impl_1/example_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"CHIPSCOPE_INST.u_ila_ddr3_native"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"CHIPSCOPE_INST.u_ila_ddr3_native"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"CHIPSCOPE_INST.u_ila_ddr3_native"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"CHIPSCOPE_INST.u_ila_ddr3_native"}]]
+close_hw

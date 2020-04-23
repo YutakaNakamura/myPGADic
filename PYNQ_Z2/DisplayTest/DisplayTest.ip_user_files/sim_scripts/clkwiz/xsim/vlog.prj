@@ -1,0 +1,8 @@
+verilog xil_defaultlib --include "../../../../DisplayTest.srcs/sources_1/bd/clkwiz/ipshared/85a3" \
+"../../../bd/clkwiz/ip/clkwiz_clk_wiz_0_0/clkwiz_clk_wiz_0_0_clk_wiz.v" \
+"../../../bd/clkwiz/ip/clkwiz_clk_wiz_0_0/clkwiz_clk_wiz_0_0.v" \
+"../../../bd/clkwiz/sim/clkwiz.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

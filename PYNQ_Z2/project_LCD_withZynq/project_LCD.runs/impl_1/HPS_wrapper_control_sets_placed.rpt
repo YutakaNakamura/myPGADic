@@ -1,0 +1,70 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Feb 11 23:10:12 2020
+| Host         : DESKTOP-AO3CL7T running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file HPS_wrapper_control_sets_placed.rpt
+| Design       : HPS_wrapper
+| Device       : xc7z020
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |     4 |
+| Unused register locations in slices containing registers |    11 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      7 |            1 |
+|      8 |            1 |
+|     11 |            2 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               8 |            7 |
+| No           | No                    | Yes                    |              18 |            8 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              11 |            5 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------------------------------+-----------------------------------------+------------------+------------------+----------------+
+|                      Clock Signal                     |              Enable Signal              | Set/Reset Signal | Slice Load Count | Bel Load Count |
++-------------------------------------------------------+-----------------------------------------+------------------+------------------+----------------+
+|  topwithHPS/lcd/PLL180M/PLL_i/clk_wiz_0/inst/clk_out1 |                                         | btn_IBUF[0]      |                3 |              7 |
+|  topwithHPS/lcd/prescaler9M/CLK                       |                                         |                  |                7 |              8 |
+|  topwithHPS/lcd/prescaler9M/CLK                       |                                         | btn_IBUF[0]      |                5 |             11 |
+|  topwithHPS/lcd/prescaler9M/CLK                       | topwithHPS/lcd/unit_PtnGen/counter_vs_0 | btn_IBUF[0]      |                5 |             11 |
++-------------------------------------------------------+-----------------------------------------+------------------+------------------+----------------+
+
+

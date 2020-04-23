@@ -1,0 +1,5 @@
+BRAM_RGB_blk_mem_gen_0_0.v,verilog,xil_defaultlib,../../../bd/BRAM_RGB/ip/BRAM_RGB_blk_mem_gen_0_0/sim/BRAM_RGB_blk_mem_gen_0_0.v,
+BRAM_RGB_blk_mem_gen_R_0.v,verilog,xil_defaultlib,../../../bd/BRAM_RGB/ip/BRAM_RGB_blk_mem_gen_R_0/sim/BRAM_RGB_blk_mem_gen_R_0.v,
+BRAM_RGB_blk_mem_gen_R_1.v,verilog,xil_defaultlib,../../../bd/BRAM_RGB/ip/BRAM_RGB_blk_mem_gen_R_1/sim/BRAM_RGB_blk_mem_gen_R_1.v,
+BRAM_RGB.v,verilog,xil_defaultlib,../../../bd/BRAM_RGB/sim/BRAM_RGB.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

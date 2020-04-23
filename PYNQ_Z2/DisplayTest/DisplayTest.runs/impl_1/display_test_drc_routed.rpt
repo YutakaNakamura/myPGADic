@@ -1,0 +1,72 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Jan 26 23:28:14 2020
+| Host         : DESKTOP-AO3CL7T running 64-bit major release  (build 9200)
+| Command      : report_drc -file display_test_drc_routed.rpt -pb display_test_drc_routed.pb -rpx display_test_drc_routed.rpx
+| Design       : display_test
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 7
++----------+----------+--------------------------------------------------------------+------------+
+| Rule     | Severity | Description                                                  | Violations |
++----------+----------+--------------------------------------------------------------+------------+
+| PDCN-137 | Warning  | enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff | 6          |
+| ZPS7-1   | Warning  | PS7 block required                                           | 1          |
++----------+----------+--------------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PDCN-137#1 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X5Y16 has BlockRam (nolabel_line53/blkmem_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[18].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_B) with RAM_EXTENSION_A attribute set to LOWER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#2 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X5Y17 has BlockRam (nolabel_line53/blkmem_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[18].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_T) with RAM_EXTENSION_A attribute set to UPPER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#3 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X5Y18 has BlockRam (nolabel_line53/blkmem_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_B) with RAM_EXTENSION_A attribute set to LOWER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#4 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X5Y19 has BlockRam (nolabel_line53/blkmem_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_T) with RAM_EXTENSION_A attribute set to UPPER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#5 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X5Y20 has BlockRam (nolabel_line53/blkmem_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_B) with RAM_EXTENSION_A attribute set to LOWER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+PDCN-137#6 Warning
+enum_RAM_EXTENSION_A_not_NONE_connects_ADDRARDADDRL15_Tieoff  
+RAMB36E1 site RAMB36_X5Y21 has BlockRam (nolabel_line53/blkmem_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.CASCADED_PRIM36.ram_T) with RAM_EXTENSION_A attribute set to UPPER and ADDRARADDRL15 pin tied to LOGIC 0 (GND). In this case only the Lower BRAM will be used.
+Related violations: <none>
+
+ZPS7-1#1 Warning
+PS7 block required  
+The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+Related violations: <none>
+
+

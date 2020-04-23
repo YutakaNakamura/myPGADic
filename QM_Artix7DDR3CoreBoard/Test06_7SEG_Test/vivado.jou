@@ -1,0 +1,64 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Jan  6 14:12:24 2019
+# Process ID: 12392
+# Current directory: E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8052 E:\Xilinx\Artix-7\Workspace-DDR3-DB2\Test06_7SEG_Test\project_1.xpr
+# Log file: E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/vivado.log
+# Journal file: E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.xpr
+add_files -norecurse {E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/demo_control_module.v E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/smg_interface.v E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/smg_interface_demo.v E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/smg_scan_module.v E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/smg_encode_module.v E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/smg_control_module.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+file mkdir E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1
+file mkdir E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new
+close [ open E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc w ]
+add_files -fileset constrs_1 E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+set_property target_constrs_file E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.srcs/constrs_1/new/7SEG_Test.xdc [current_fileset -constrset]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {Scan_Sig[2]} {Scan_Sig[1]} {Scan_Sig[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {SMG_Data[7]} {SMG_Data[6]} {SMG_Data[5]} {SMG_Data[4]} {SMG_Data[3]} {SMG_Data[2]} {SMG_Data[1]} {SMG_Data[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list CLK]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list RSTn]]
+place_ports CLK N11
+place_ports RSTn E6
+save_constraints
+refresh_design
+place_ports {Scan_Sig[2]} T8
+place_ports {Scan_Sig[1]} P10
+place_ports {Scan_Sig[0]} T10
+place_ports {Scan_Sig[0]} T9
+save_constraints
+place_ports {SMG_Data[0]} T10
+place_ports {SMG_Data[1]} K13
+place_ports {SMG_Data[2]} P11
+place_ports {SMG_Data[3]} R11
+place_ports {SMG_Data[4]} R10
+place_ports {SMG_Data[5]} N9
+place_ports {SMG_Data[6]} K12
+place_ports {SMG_Data[7]} P9
+save_constraints
+refresh_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+close_design
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.runs/impl_1/smg_interface_demo.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test06_7SEG_Test/project_1.runs/impl_1/smg_interface_demo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+disconnect_hw_server localhost:3121
+reset_run synth_1

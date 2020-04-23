@@ -1,0 +1,227 @@
+/*
+
+Vivado v2014.4
+SW Build 1071353 on Tue Nov 18 18:06:20 MST 2014
+Process ID: 3944
+
+Current time: 	10/29/16 11:00:13 PM
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 7
+Version: 6.1
+Architecture: x86
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.8.0_05 32-bit
+Java home: 	C:/Xilinx/Vivado/2014.4/tps/win32/jre
+
+User name: 	Administrator
+User directory: E:/Xilinx/Artix-7/Workspace/project_key
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+Vivado preferences path: C:/Users/Administrator.HYD4PFV30C7MW2T/AppData/Roaming/Xilinx/Vivado/2014.4/vivado.ini
+Vivado layouts directory: C:/Users/Administrator.HYD4PFV30C7MW2T/AppData/Roaming/Xilinx/Vivado/2014.4/layouts/application
+
+GUI allocated memory:	150 MB
+GUI max memory:		227 MB
+Engine allocated memory: 455 MB
+
+*/
+
+// TclEventType: START_GUI
+// HColorUtils.generateUniqueColorPalette (num colors: 56) elapsed time: 1.3s
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 33 MB (+32168kb) [00:00:16]
+// [Engine Memory]: 437 MB (+306366kb) [00:00:16]
+// TclEventType: PROJECT_OPEN_DIALOG
+// cm:N (ch:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/Xilinx/Artix-7/Workspace/project_key/project_key.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/Xilinx/Artix-7/Workspace/project_key/project_key.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 486 MB. GUI used memory: 27 MB. Current time: 10/29/16 11:00:15 PM
+// [Engine Memory]: 486 MB (+52162kb) [00:00:20]
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 46 MB (+13627kb) [00:00:23]
+// [Engine Memory]: 493 MB (+6602kb) [00:00:23]
+// [GUI Memory]: 78 MB (+33957kb) [00:00:25]
+// [Engine Memory]: 515 MB (+22929kb) [00:00:25]
+// [GUI Memory]: 81 MB (+2776kb) [00:00:27]
+// [Engine Memory]: 535 MB (+21905kb) [00:00:27]
+// [Engine Memory]: 538 MB (+2596kb) [00:00:28]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'. 
+// [Engine Memory]: 545 MB (+7217kb) [00:00:29]
+// [Engine Memory]: 550 MB (+5713kb) [00:00:31]
+// [Engine Memory]: 550 MB (+241kb) [00:00:31]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 551 MB (+843kb) [00:00:32]
+// [GUI Memory]: 81 MB (+91kb) [00:00:32]
+// [Engine Memory]: 552 MB (+1048kb) [00:00:32]
+// [Engine Memory]: 553 MB (+245kb) [00:00:32]
+// [GUI Memory]: 82 MB (+1094kb) [00:00:32]
+// [Engine Memory]: 553 MB (+385kb) [00:00:32]
+// [Engine Memory]: 553 MB (+540kb) [00:00:32]
+// [GUI Memory]: 83 MB (+1094kb) [00:00:32]
+// [Engine Memory]: 553 MB (+90kb) [00:00:32]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 84 MB (+1094kb) [00:00:32]
+// [Engine Memory]: 554 MB (+307kb) [00:00:32]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 85 MB (+1150kb) [00:00:32]
+// [Engine Memory]: 556 MB (+2813kb) [00:00:32]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 557 MB (+835kb) [00:00:32]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 86 MB (+1094kb) [00:00:32]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 88 MB (+1150kb) [00:00:33]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 89 MB (+1094kb) [00:00:33]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 90 MB (+1094kb) [00:00:33]
+// [GUI Memory]: 90 MB (+583kb) [00:00:33]
+// [Engine Memory]: 558 MB (+397kb) [00:00:33]
+// [Engine Memory]: 559 MB (+1150kb) [00:00:33]
+// [Engine Memory]: 559 MB (+745kb) [00:00:33]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 560 MB (+700kb) [00:00:33]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 561 MB (+573kb) [00:00:33]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 561 MB (+20kb) [00:00:33]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 561 MB (+471kb) [00:00:33]
+// [Engine Memory]: 561 MB (+389kb) [00:00:34]
+// [Engine Memory]: 562 MB (+151kb) [00:00:34]
+// [Engine Memory]: 562 MB (+102kb) [00:00:34]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project_key; location: E:/Xilinx/Artix-7/Workspace/project_key; part: xc7a35tftg256-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:00:17 . Memory (MB): peak = 674.625 ; gain = 76.430 
+dismissDialog("Open Project"); // cm:N (ch:JFrame)
+// [Engine Memory]: 562 MB (+274kb) [00:00:35]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 25); // w:Y (v:I, ch:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 26, false); // w:Y (v:I, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, "Open New Target..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD
+// ae:g (ch:JFrame): Open New Hardware Target: addNotify
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, ae:g)
+dismissDialog("Open New Hardware Target"); // ae:g (ch:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h:k (JPanel:JComponent, ch:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// [Engine Memory]: 562 MB (+311kb) [00:00:47]
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0] 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/00000000000000 
+// Tcl Message: set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace/project_key/project_key.runs/impl_1/Key_Jitter.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace/project_key/project_key.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// PAPropertyPanels.initPanels (xc7a35t_0) elapsed time: 0.2s
+// [GUI Memory]: 92 MB (+2411kb) [00:00:48]
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // f:au (JViewport:JComponent, ch:JFrame) - Popup Trigger - Node
+// [Engine Memory]: 567 MB (+4939kb) [00:00:50]
+// HMemoryUtils.trashcanNow. Engine heap size: 569 MB. GUI used memory: 37 MB. Current time: 10/29/16 11:00:45 PM
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, ch:JFrame)
+// [Engine Memory]: 575 MB (+8097kb) [00:00:51]
+// [Engine Memory]: 576 MB (+909kb) [00:00:56]
+// [Engine Memory]: 577 MB (+1581kb) [00:01:06]
+// Elapsed time: 20 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "write_cfgmem -format mcs -interface spix4 -size 64 -loadbit \"up 0x0 key_jitter.bit\" -file key_jitter.mcs", true); // W:an (F:R, ch:JFrame)
+// Tcl Command: 'write_cfgmem -format mcs -interface spix4 -size 64 -loadbit "up 0x0 key_jitter.bit" -file key_jitter.mcs'
+// Tcl Message: write_cfgmem -format mcs -interface spix4 -size 64 -loadbit "up 0x0 key_jitter.bit" -file key_jitter.mcs 
+// Tcl Message: Creating config memory files... Creating bitstream load up from address 0x00000000 Loading bitfile key_jitter.bit 
+// Tcl Message: ERROR: [Bitstream 40-47] File key_jitter.bit does not exist. ERROR: [Bitstream 40-46] File key_jitter.bit cannot be opened for input. ERROR: [Vivado 12-3540] Could not load bitfile key_jitter.bit. 
+// Tcl Message: ERROR: [Common 17-39] 'write_cfgmem' failed due to earlier errors. 
+// [GUI Memory]: 93 MB (+47kb) [00:01:12]
+// Elapsed time: 34 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "write_cfgmem -format mcs -interface spix4 -size 64 -loadbit \"up 0x0 Key_Jitter.bit\" -file Key_Jitter.mcs", true); // W:an (F:R, ch:JFrame)
+// Tcl Command: 'write_cfgmem -format mcs -interface spix4 -size 64 -loadbit "up 0x0 Key_Jitter.bit" -file Key_Jitter.mcs'
+// Tcl Message: write_cfgmem -format mcs -interface spix4 -size 64 -loadbit "up 0x0 Key_Jitter.bit" -file Key_Jitter.mcs 
+// Tcl Message: Creating config memory files... Creating bitstream load up from address 0x00000000 Loading bitfile Key_Jitter.bit 
+// Tcl Message: ERROR: [Bitstream 40-47] File Key_Jitter.bit does not exist. ERROR: [Bitstream 40-46] File Key_Jitter.bit cannot be opened for input. ERROR: [Vivado 12-3540] Could not load bitfile Key_Jitter.bit. 
+// Tcl Message: ERROR: [Common 17-39] 'write_cfgmem' failed due to earlier errors. 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "pwd", true); // W:an (F:R, ch:JFrame)
+// Tcl Command: 'pwd'
+// Tcl Message: pwd 
+// Tcl Message: E:/Xilinx/Artix-7/Workspace/project_key 
+// [Engine Memory]: 578 MB (+1003kb) [00:01:56]
+// [GUI Memory]: 93 MB (+159kb) [00:02:06]
+// Elapsed time: 13 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "cd project_key.runs/impl_1", true); // W:an (F:R, ch:JFrame)
+// Tcl Command: 'cd project_key.runs/impl_1'
+// Tcl Message: cd project_key.runs/impl_1 
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "write_cfgmem -format mcs -interface spix4 -size 64 -loadbit \"up 0x0 Key_Jitter.bit\" -file Key_Jitter.mcs", true); // W:an (F:R, ch:JFrame)
+// Tcl Command: 'write_cfgmem -format mcs -interface spix4 -size 64 -loadbit "up 0x0 Key_Jitter.bit" -file Key_Jitter.mcs'
+// Tcl Message: write_cfgmem -format mcs -interface spix4 -size 64 -loadbit "up 0x0 Key_Jitter.bit" -file Key_Jitter.mcs 
+// Tcl Message: Creating config memory files... Creating bitstream load up from address 0x00000000 Loading bitfile Key_Jitter.bit 
+// [Engine Memory]: 621 MB (+44630kb) [00:02:12]
+// cm:N (ch:JFrame):  Tcl Command Line : addNotify
+// Tcl Message: Writing file ./Key_Jitter.mcs 
+// HMemoryUtils.trashcanNow. Engine heap size: 644 MB. GUI used memory: 37 MB. Current time: 10/29/16 11:02:10 PM
+// Tcl Message: =================================== Configuration Memory information =================================== Format             MCS Size               64M Start Address      0x00000000 End Address        0x03FFFFFF  Addr1       Addr2       Date                    File(s) 00000000    0021728B    Oct 29 22:56:17 2016    Key_Jitter.bit 
+// Tcl Message: write_cfgmem: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 737.813 ; gain = 61.582 
+// [Engine Memory]: 644 MB (+24993kb) [00:02:16]
+dismissDialog("Tcl Command Line"); // cm:N (ch:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true, false, false, false, true, false); // f:au (JViewport:JComponent, ch:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_CONFIG_MEMORY, "Add Configuration Memory Device..."); // Z:JMenuItem (ag:JPopupMenu, ch:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_CONFIG_MEMORY
+// aw:N (ch:JFrame): Add Configuration Memory Device: addNotify
+selectComboBox(PAResourceAtoD.CfgMemPartChooser_MANUFACTURER_CHOOSER, "Micron", 1); // w:l (JPanel:JComponent, aw:N)
+selectComboBox(PAResourceAtoD.CfgMemPartChooser_DENSITY_CHOOSER, "64", 7); // o:l (JPanel:JComponent, aw:N)
+selectComboBox(PAResourceAtoD.CfgMemPartChooser_TYPE_CHOOSER, "spi", 2); // D:l (JPanel:JComponent, aw:N)
+selectTable(PAResourceAtoD.CfgMemPartChooser_TABLE, "n25q64-3.3v-spi-x1_x2_x4 ; n25q64-3.3v ; Micron ;  ; n25q ; spi ; 64 ; x1_x2_x4", 1, "n25q64-3.3v-spi-x1_x2_x4", 0); // h:u (JViewport:JComponent, aw:N)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aw:N)
+// 'a' command handler elapsed time: 7 seconds
+dismissDialog("Add Configuration Memory Device"); // aw:N (ch:JFrame)
+// TclEventType: HW_CFGMEM_CREATE
+// TclEventType: HW_CFGMEM_PART_CHANGE
+// Tcl Message: create_hw_cfgmem -hw_device [lindex [get_hw_devices] 0] -mem_dev  [lindex [get_cfgmem_parts {n25q64-3.3v-spi-x1_x2_x4}] 0] 
+// Tcl Message: set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]] 
+// Tcl Message: set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]] 
+// Tcl Message: set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]] 
+// Tcl Message: set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices] 0 ]] 
+// TclEventType: HW_DEVICE_CHANGE
+// cm:N (ch:JFrame):  Program Configuration Memory Device : addNotify
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// al:bE (ch:JFrame): Add Configuration Memory Device Completed: addNotify

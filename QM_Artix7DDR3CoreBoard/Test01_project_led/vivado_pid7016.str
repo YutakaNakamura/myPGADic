@@ -1,0 +1,99 @@
+/*
+
+Vivado v2014.4
+SW Build 1071353 on Tue Nov 18 18:06:20 MST 2014
+Process ID: 7016
+
+Current time: 	10/29/16 9:00:17 PM
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 7
+Version: 6.1
+Architecture: x86
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.8.0_05 32-bit
+Java home: 	C:/Xilinx/Vivado/2014.4/tps/win32/jre
+
+User name: 	Administrator
+User directory: E:/Xilinx/Artix-7/Workspace/project_led
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+Vivado preferences path: C:/Users/Administrator.HYD4PFV30C7MW2T/AppData/Roaming/Xilinx/Vivado/2014.4/vivado.ini
+Vivado layouts directory: C:/Users/Administrator.HYD4PFV30C7MW2T/AppData/Roaming/Xilinx/Vivado/2014.4/layouts/application
+
+GUI allocated memory:	161 MB
+GUI max memory:		227 MB
+Engine allocated memory: 631 MB
+
+*/
+
+// TclEventType: START_GUI
+// HColorUtils.generateUniqueColorPalette (num colors: 55) elapsed time: 1.3s
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// cm:N (ch:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/Xilinx/Artix-7/Workspace/project_led/project_led.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 73 MB (+74230kb) [00:00:08]
+// [Engine Memory]: 527 MB (+401181kb) [00:00:08]
+// Tcl Message: open_project E:/Xilinx/Artix-7/Workspace/project_led/project_led.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 576 MB (+51068kb) [00:00:10]
+// [Engine Memory]: 621 MB (+46956kb) [00:00:11]
+// [Engine Memory]: 631 MB (+10649kb) [00:00:13]
+// [Engine Memory]: 631 MB (+319kb) [00:00:14]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 631 MB. GUI used memory: 32 MB. Current time: 10/29/16 9:00:17 PM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 632 MB (+970kb) [00:00:18]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 632 MB (+159kb) [00:00:18]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 633 MB (+638kb) [00:00:20]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project_led; location: E:/Xilinx/Artix-7/Workspace/project_led; part: xc7a35tftg256-1
+// [Engine Memory]: 637 MB (+4444kb) [00:00:20]
+// Tcl Message: open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:13 . Memory (MB): peak = 769.414 ; gain = 108.180 
+dismissDialog("Open Project"); // cm:N (ch:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 638 MB (+1368kb) [00:00:23]
+// Elapsed time: 48 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 25); // w:Y (v:I, ch:JFrame)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, ch:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, ch:JFrame)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, ch:JFrame)
+// Elapsed time: 21 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "connect_hw_server", true); // W:an (F:R, ch:JFrame)
+// Tcl Command: 'connect_hw_server'
+// TclEventType: LOAD_FEATURE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// cm:N (ch:JFrame):  Tcl Command Line : addNotify
+// Elapsed time: 13 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, cm:N)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// Elapsed time: 32 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, cm:N)
+closeMainWindow("project_led - [E:/Xilinx/Artix-7/Workspace/project_led/project_led.xpr] - Vivado 2014.4"); // ch:JFrame
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'

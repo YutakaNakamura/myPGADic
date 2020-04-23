@@ -1,0 +1,414 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2018.3/data/ip'.
+Command: synth_design -top top -part xc7a35ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 21384 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 415.668 ; gain = 104.141
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'test_lcd' [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/new/test_lcd.v:2]
+INFO: [Synth 8-6157] synthesizing module 'design_PLL_wrapper' [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/bd/design_PLL/hdl/design_PLL_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'design_PLL' [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/bd/design_PLL/synth/design_PLL.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_PLL_clk_wiz_0_0' [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.runs/synth_1/.Xil/Vivado-17060-DESKTOP-AO3CL7T/realtime/design_PLL_clk_wiz_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'design_PLL_clk_wiz_0_0' (1#1) [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.runs/synth_1/.Xil/Vivado-17060-DESKTOP-AO3CL7T/realtime/design_PLL_clk_wiz_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'design_PLL' (2#1) [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/bd/design_PLL/synth/design_PLL.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_PLL_wrapper' (3#1) [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/bd/design_PLL/hdl/design_PLL_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'prescaler' [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/new/prescaler.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'prescaler' (4#1) [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/new/prescaler.v:3]
+INFO: [Synth 8-6157] synthesizing module 'lcd_pattern_generator' [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/new/lcd_pattern_generator.v:2]
+	Parameter TFT_H bound to: 480 - type: integer 
+	Parameter TFT_V bound to: 272 - type: integer 
+	Parameter th bound to: 531 - type: integer 
+	Parameter thbp bound to: 43 - type: integer 
+	Parameter thfp bound to: 8 - type: integer 
+	Parameter thw bound to: 10 - type: integer 
+	Parameter tv bound to: 288 - type: integer 
+	Parameter tvbp bound to: 12 - type: integer 
+	Parameter tvfp bound to: 4 - type: integer 
+	Parameter tvw bound to: 10 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'lcd_pattern_generator' (5#1) [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/new/lcd_pattern_generator.v:2]
+INFO: [Synth 8-6157] synthesizing module 'data_out' [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/new/data_out.v:2]
+INFO: [Synth 8-6157] synthesizing module 'RGB_BRAM_wrapper' [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/bd/RGB_BRAM/hdl/RGB_BRAM_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'RGB_BRAM' [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/bd/RGB_BRAM/synth/RGB_BRAM.v:13]
+INFO: [Synth 8-6157] synthesizing module 'RGB_BRAM_blk_mem_gen_R1_0' [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.runs/synth_1/.Xil/Vivado-17060-DESKTOP-AO3CL7T/realtime/RGB_BRAM_blk_mem_gen_R1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'RGB_BRAM_blk_mem_gen_R1_0' (6#1) [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.runs/synth_1/.Xil/Vivado-17060-DESKTOP-AO3CL7T/realtime/RGB_BRAM_blk_mem_gen_R1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'RGB_BRAM_blk_mem_gen_R_0' [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.runs/synth_1/.Xil/Vivado-17060-DESKTOP-AO3CL7T/realtime/RGB_BRAM_blk_mem_gen_R_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'RGB_BRAM_blk_mem_gen_R_0' (7#1) [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.runs/synth_1/.Xil/Vivado-17060-DESKTOP-AO3CL7T/realtime/RGB_BRAM_blk_mem_gen_R_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'RGB_BRAM_blk_mem_gen_0_0' [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.runs/synth_1/.Xil/Vivado-17060-DESKTOP-AO3CL7T/realtime/RGB_BRAM_blk_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'RGB_BRAM_blk_mem_gen_0_0' (8#1) [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.runs/synth_1/.Xil/Vivado-17060-DESKTOP-AO3CL7T/realtime/RGB_BRAM_blk_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'RGB_BRAM' (9#1) [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/bd/RGB_BRAM/synth/RGB_BRAM.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'RGB_BRAM_wrapper' (10#1) [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/bd/RGB_BRAM/hdl/RGB_BRAM_wrapper.v:12]
+WARNING: [Synth 8-689] width (32) of port connection 'BRAM_PORTA_B_addr' does not match port width (17) of module 'RGB_BRAM_wrapper' [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/new/data_out.v:22]
+WARNING: [Synth 8-689] width (32) of port connection 'BRAM_PORTA_G_addr' does not match port width (17) of module 'RGB_BRAM_wrapper' [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/new/data_out.v:27]
+WARNING: [Synth 8-689] width (32) of port connection 'BRAM_PORTA_R_addr' does not match port width (17) of module 'RGB_BRAM_wrapper' [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/new/data_out.v:32]
+WARNING: [Synth 8-6014] Unused sequential element timecnt_reg was removed.  [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/new/data_out.v:45]
+WARNING: [Synth 8-6014] Unused sequential element scan_dir_reg was removed.  [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/new/data_out.v:49]
+WARNING: [Synth 8-6014] Unused sequential element r_R_reg was removed.  [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/new/data_out.v:66]
+WARNING: [Synth 8-6014] Unused sequential element r_B_reg was removed.  [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/new/data_out.v:67]
+WARNING: [Synth 8-6014] Unused sequential element r_G_reg was removed.  [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/new/data_out.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'data_out' (11#1) [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/new/data_out.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'test_lcd' (12#1) [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/new/test_lcd.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'top' (13#1) [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/new/top.v:23]
+WARNING: [Synth 8-3331] design data_out has unconnected port den
+WARNING: [Synth 8-3331] design top has unconnected port ck_io[13]
+WARNING: [Synth 8-3331] design top has unconnected port ck_io[12]
+WARNING: [Synth 8-3331] design top has unconnected port btn[3]
+WARNING: [Synth 8-3331] design top has unconnected port btn[2]
+WARNING: [Synth 8-3331] design top has unconnected port btn[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 471.285 ; gain = 159.758
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 471.285 ; gain = 159.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 471.285 ; gain = 159.758
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/bd/RGB_BRAM/ip/RGB_BRAM_blk_mem_gen_0_0/RGB_BRAM_blk_mem_gen_0_0/RGB_BRAM_blk_mem_gen_0_0_in_context.xdc] for cell 'lcd/datout/BRAM/RGB_BRAM_i/blk_mem_gen_R'
+Finished Parsing XDC File [e:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/bd/RGB_BRAM/ip/RGB_BRAM_blk_mem_gen_0_0/RGB_BRAM_blk_mem_gen_0_0/RGB_BRAM_blk_mem_gen_0_0_in_context.xdc] for cell 'lcd/datout/BRAM/RGB_BRAM_i/blk_mem_gen_R'
+Parsing XDC File [e:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/bd/RGB_BRAM/ip/RGB_BRAM_blk_mem_gen_R_0/RGB_BRAM_blk_mem_gen_R_0/RGB_BRAM_blk_mem_gen_R_0_in_context.xdc] for cell 'lcd/datout/BRAM/RGB_BRAM_i/blk_mem_gen_G'
+Finished Parsing XDC File [e:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/bd/RGB_BRAM/ip/RGB_BRAM_blk_mem_gen_R_0/RGB_BRAM_blk_mem_gen_R_0/RGB_BRAM_blk_mem_gen_R_0_in_context.xdc] for cell 'lcd/datout/BRAM/RGB_BRAM_i/blk_mem_gen_G'
+Parsing XDC File [e:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/bd/RGB_BRAM/ip/RGB_BRAM_blk_mem_gen_R1_0/RGB_BRAM_blk_mem_gen_R1_0/RGB_BRAM_blk_mem_gen_R1_0_in_context.xdc] for cell 'lcd/datout/BRAM/RGB_BRAM_i/blk_mem_gen_B'
+Finished Parsing XDC File [e:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/bd/RGB_BRAM/ip/RGB_BRAM_blk_mem_gen_R1_0/RGB_BRAM_blk_mem_gen_R1_0/RGB_BRAM_blk_mem_gen_R1_0_in_context.xdc] for cell 'lcd/datout/BRAM/RGB_BRAM_i/blk_mem_gen_B'
+Parsing XDC File [e:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/bd/design_PLL/ip/design_PLL_clk_wiz_0_0/design_PLL_clk_wiz_0_0/design_PLL_clk_wiz_0_0_in_context.xdc] for cell 'lcd/PLL180M/design_PLL_i/clk_wiz_0'
+Finished Parsing XDC File [e:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/bd/design_PLL/ip/design_PLL_clk_wiz_0_0/design_PLL_clk_wiz_0_0/design_PLL_clk_wiz_0_0_in_context.xdc] for cell 'lcd/PLL180M/design_PLL_i/clk_wiz_0'
+Parsing XDC File [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/constrs_1/new/project_LCD.xdc]
+Finished Parsing XDC File [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/constrs_1/new/project_LCD.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/constrs_1/new/project_LCD.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.runs/synth_1/dont_touch.xdc]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 788.227 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 788.227 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 788.227 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 788.227 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 788.227 ; gain = 476.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 788.227 ; gain = 476.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for CLK100MHZ. (constraint file  e:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/bd/design_PLL/ip/design_PLL_clk_wiz_0_0/design_PLL_clk_wiz_0_0/design_PLL_clk_wiz_0_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK100MHZ. (constraint file  e:/Xilinx/workspace/ARTY/project_LCD/project_LCD.srcs/sources_1/bd/design_PLL/ip/design_PLL_clk_wiz_0_0/design_PLL_clk_wiz_0_0/design_PLL_clk_wiz_0_0_in_context.xdc, line 4).
+Applied set_property DONT_TOUCH = true for lcd/datout/BRAM/RGB_BRAM_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for lcd/datout/BRAM/RGB_BRAM_i/blk_mem_gen_R. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for lcd/datout/BRAM/RGB_BRAM_i/blk_mem_gen_G. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for lcd/datout/BRAM/RGB_BRAM_i/blk_mem_gen_B. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for lcd/PLL180M/design_PLL_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for lcd/PLL180M/design_PLL_i/clk_wiz_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 788.227 ; gain = 476.699
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "outflag" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "counter_vs" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 788.227 ; gain = 476.699
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 4     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 2     
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 4     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module prescaler 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module lcd_pattern_generator 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 4     
++---Registers : 
+	               11 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "lcd/prescaler9M/outflag" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lcd/unit_PtnGen/counter_vs" won't be mapped to RAM because it is too sparse
+DSP Report: Generating DSP lcd/datout/BRAM_PORTA_B_addr0, operation Mode is: (C or 0)+A*(B:0x1e0).
+DSP Report: operator lcd/datout/BRAM_PORTA_B_addr0 is absorbed into DSP lcd/datout/BRAM_PORTA_B_addr0.
+DSP Report: operator lcd/datout/BRAM_PORTA_B_addr1 is absorbed into DSP lcd/datout/BRAM_PORTA_B_addr0.
+DSP Report: operator lcd/datout/BRAM_PORTA_B_addr0 is absorbed into DSP lcd/datout/BRAM_PORTA_B_addr0.
+WARNING: [Synth 8-3331] design top has unconnected port ck_io[13]
+WARNING: [Synth 8-3331] design top has unconnected port ck_io[12]
+WARNING: [Synth 8-3331] design top has unconnected port btn[3]
+WARNING: [Synth 8-3331] design top has unconnected port btn[2]
+WARNING: [Synth 8-3331] design top has unconnected port btn[1]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 788.227 ; gain = 476.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+----------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping          | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|data_out    | (C or 0)+A*(B:0x1e0) | 11     | 9      | 11     | -      | 17     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++------------+----------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'lcd/PLL180M/design_PLL_i/clk_wiz_0/clk_out1' to pin 'lcd/PLL180M/design_PLL_i/clk_wiz_0/bbstub_clk_out1/O'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 834.902 ; gain = 523.375
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 844.582 ; gain = 533.055
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 845.688 ; gain = 534.160
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 845.688 ; gain = 534.160
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 845.688 ; gain = 534.160
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 845.688 ; gain = 534.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 845.688 ; gain = 534.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 845.688 ; gain = 534.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 845.688 ; gain = 534.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------------------+----------+
+|      |BlackBox name             |Instances |
++------+--------------------------+----------+
+|1     |design_PLL_clk_wiz_0_0    |         1|
+|2     |RGB_BRAM_blk_mem_gen_R1_0 |         1|
+|3     |RGB_BRAM_blk_mem_gen_R_0  |         1|
+|4     |RGB_BRAM_blk_mem_gen_0_0  |         1|
++------+--------------------------+----------+
+
+Report Cell Usage: 
++------+--------------------------+------+
+|      |Cell                      |Count |
++------+--------------------------+------+
+|1     |RGB_BRAM_blk_mem_gen_0_0  |     1|
+|2     |RGB_BRAM_blk_mem_gen_R1_0 |     1|
+|3     |RGB_BRAM_blk_mem_gen_R_0  |     1|
+|4     |design_PLL_clk_wiz_0_0    |     1|
+|5     |DSP48E1                   |     1|
+|6     |LUT1                      |     2|
+|7     |LUT2                      |     8|
+|8     |LUT3                      |     8|
+|9     |LUT4                      |    11|
+|10    |LUT5                      |    13|
+|11    |LUT6                      |    35|
+|12    |FDCE                      |    29|
+|13    |IBUF                      |     1|
+|14    |OBUF                      |    28|
+|15    |OBUFT                     |     2|
++------+--------------------------+------+
+
+Report Instance Areas: 
++------+-------------------+----------------------+------+
+|      |Instance           |Module                |Cells |
++------+-------------------+----------------------+------+
+|1     |top                |                      |   164|
+|2     |  lcd              |test_lcd              |   133|
+|3     |    PLL180M        |design_PLL_wrapper    |     2|
+|4     |      design_PLL_i |design_PLL            |     2|
+|5     |    datout         |data_out              |    25|
+|6     |      BRAM         |RGB_BRAM_wrapper      |    24|
+|7     |        RGB_BRAM_i |RGB_BRAM              |    24|
+|8     |    prescaler9M    |prescaler             |    16|
+|9     |    unit_PtnGen    |lcd_pattern_generator |    90|
++------+-------------------+----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 845.688 ; gain = 534.160
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 845.688 ; gain = 217.219
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 845.688 ; gain = 534.160
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 845.688 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+47 Infos, 19 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 845.688 ; gain = 545.629
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 845.688 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'E:/Xilinx/workspace/ARTY/project_LCD/project_LCD.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 11 00:39:46 2020...

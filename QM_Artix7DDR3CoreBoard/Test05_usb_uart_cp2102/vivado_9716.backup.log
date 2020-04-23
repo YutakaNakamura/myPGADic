@@ -1,0 +1,86 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Mon Apr 23 13:53:44 2018
+# Process ID: 9716
+# Current directory: E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19208 E:\Xilinx\Artix-7\Workspace-DDR3\Test06_project_usb_uart\usb_uart\usb_uart.xpr
+# Log file: E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/vivado.log
+# Journal file: E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 770.828 ; gain = 141.453
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/00000000000000
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.runs/impl_1/uart_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.runs/impl_1/uart_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Common 17-48] File not found: E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.runs/impl_1/debug_nets.ltx
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/00000000000000
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.runs/impl_1/uart_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.runs/impl_1/uart_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Common 17-48] File not found: E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.runs/impl_1/debug_nets.ltx
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/00000000000000
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.runs/impl_1/uart_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.runs/impl_1/uart_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Common 17-48] File not found: E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.runs/impl_1/debug_nets.ltx
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 23 14:03:25 2018...

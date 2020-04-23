@@ -1,0 +1,75 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Wed Oct 31 21:26:42 2018
+# Process ID: 1620
+# Current directory: E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7604 E:\Xilinx\Artix-7\Workspace-DDR3\Test06_project_usb_uart\usb_uart\usb_uart.xpr
+# Log file: E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/vivado.log
+# Journal file: E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.xpr
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.runs/impl_1/uart_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.runs/impl_1/uart_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test04-project_CY7C68013/project_led.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test04-project_CY7C68013/project_led.runs/impl_1/USB_FPGA.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0_inst"}]]
+set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test07_project_vga_adv7123/Test06_project_vga_adv7123.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test07_project_vga_adv7123/Test06_project_vga_adv7123.runs/impl_1/VGA_Test.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {E:\Xilinx\Artix-7\Workspace-DDR3\Test07_project_vga_adv7123\Test06_project_vga_adv7123.runs\impl_1\VGA_Test.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {E:\Xilinx\Artix-7\Workspace-DDR3\Test07_project_vga_adv7123\Test06_project_vga_adv7123.runs\impl_1\debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test07_project_vga_adv7123/Test06_project_vga_adv7123.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test07_project_vga_adv7123/Test06_project_vga_adv7123.runs/impl_1/VGA_Test.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test07_project_vga_adv7123/Test06_project_vga_adv7123.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.runs/impl_1/uart_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test04-project_CY7C68013/project_led.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test04-project_CY7C68013/project_led.runs/impl_1/USB_FPGA.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {E:\Xilinx\Artix-7\Workspace-DDR3\Test04-project_CY7C68013\project_led.runs\impl_1\USB_FPGA.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {E:\Xilinx\Artix-7\Workspace-DDR3\Test04-project_CY7C68013\project_led.runs\impl_1\debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test04-project_CY7C68013/project_led.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test04-project_CY7C68013/project_led.runs/impl_1/USB_FPGA.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0_inst"}]]
+set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test04-project_CY7C68013/project_led.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test06_project_usb_uart/usb_uart/usb_uart.runs/impl_1/uart_top.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test07_project_vga_adv7123/Test06_project_vga_adv7123.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {E:/Xilinx/Artix-7/Workspace-DDR3/Test07_project_vga_adv7123/Test06_project_vga_adv7123.runs/impl_1/VGA_Test.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw

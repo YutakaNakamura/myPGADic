@@ -1,0 +1,335 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Jan 26 23:26:47 2020
+# Process ID: 14184
+# Current directory: E:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.runs/synth_1
+# Command line: vivado.exe -log display_test.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source display_test.tcl
+# Log file: E:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.runs/synth_1/display_test.vds
+# Journal file: E:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source display_test.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2018.3/data/ip'.
+Command: synth_design -top display_test -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 16952 
+WARNING: [Synth 8-992] addrb is already implicitly declared earlier [E:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.srcs/sources_1/new/display_test.v:82]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 426.914 ; gain = 112.262
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'display_test' [E:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.srcs/sources_1/new/display_test.v:23]
+	Parameter H_PERIOD bound to: 531 - type: integer 
+	Parameter H_BPORCH bound to: 43 - type: integer 
+	Parameter V_PERIOD bound to: 288 - type: integer 
+	Parameter V_BPORCH bound to: 12 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'clkwiz_wrapper' [E:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.srcs/sources_1/bd/clkwiz/hdl/clkwiz_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'clkwiz' [E:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.srcs/sources_1/bd/clkwiz/synth/clkwiz.v:13]
+INFO: [Synth 8-6157] synthesizing module 'clkwiz_clk_wiz_0_0' [E:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.runs/synth_1/.Xil/Vivado-14184-DESKTOP-AO3CL7T/realtime/clkwiz_clk_wiz_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clkwiz_clk_wiz_0_0' (1#1) [E:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.runs/synth_1/.Xil/Vivado-14184-DESKTOP-AO3CL7T/realtime/clkwiz_clk_wiz_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clkwiz' (2#1) [E:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.srcs/sources_1/bd/clkwiz/synth/clkwiz.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'clkwiz_wrapper' (3#1) [E:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.srcs/sources_1/bd/clkwiz/hdl/clkwiz_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'blkmem_wrapper' [E:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.srcs/sources_1/bd/blkmem/hdl/blkmem_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'blkmem' [E:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.srcs/sources_1/bd/blkmem/synth/blkmem.v:13]
+INFO: [Synth 8-6157] synthesizing module 'blkmem_blk_mem_gen_0_0' [E:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.runs/synth_1/.Xil/Vivado-14184-DESKTOP-AO3CL7T/realtime/blkmem_blk_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blkmem_blk_mem_gen_0_0' (4#1) [E:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.runs/synth_1/.Xil/Vivado-14184-DESKTOP-AO3CL7T/realtime/blkmem_blk_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blkmem' (5#1) [E:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.srcs/sources_1/bd/blkmem/synth/blkmem.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'blkmem_wrapper' (6#1) [E:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.srcs/sources_1/bd/blkmem/hdl/blkmem_wrapper.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'display_test' (7#1) [E:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.srcs/sources_1/new/display_test.v:23]
+WARNING: [Synth 8-3917] design display_test has port DATAenable driven by constant 1
+WARNING: [Synth 8-3917] design display_test has port DISPON driven by constant 1
+WARNING: [Synth 8-3331] design display_test has unconnected port reset
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 461.086 ; gain = 146.434
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 461.086 ; gain = 146.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 461.086 ; gain = 146.434
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.srcs/sources_1/bd/blkmem/ip/blkmem_blk_mem_gen_0_0/blkmem_blk_mem_gen_0_0/blkmem_blk_mem_gen_0_0_in_context.xdc] for cell 'nolabel_line53/blkmem_i/blk_mem_gen_0'
+Finished Parsing XDC File [e:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.srcs/sources_1/bd/blkmem/ip/blkmem_blk_mem_gen_0_0/blkmem_blk_mem_gen_0_0/blkmem_blk_mem_gen_0_0_in_context.xdc] for cell 'nolabel_line53/blkmem_i/blk_mem_gen_0'
+Parsing XDC File [e:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.srcs/sources_1/bd/clkwiz/ip/clkwiz_clk_wiz_0_0/clkwiz_clk_wiz_0_0/clkwiz_clk_wiz_0_0_in_context.xdc] for cell 'nolabel_line39/clkwiz_i/clk_wiz_0'
+Finished Parsing XDC File [e:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.srcs/sources_1/bd/clkwiz/ip/clkwiz_clk_wiz_0_0/clkwiz_clk_wiz_0_0/clkwiz_clk_wiz_0_0_in_context.xdc] for cell 'nolabel_line39/clkwiz_i/clk_wiz_0'
+Parsing XDC File [E:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.srcs/constrs_1/new/display_test.xdc]
+Finished Parsing XDC File [E:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.srcs/constrs_1/new/display_test.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.srcs/constrs_1/new/display_test.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/display_test_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/display_test_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [E:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [E:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.runs/synth_1/dont_touch.xdc]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 808.301 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 808.301 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 808.301 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 808.301 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 808.301 ; gain = 493.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 808.301 ; gain = 493.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  e:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.srcs/sources_1/bd/clkwiz/ip/clkwiz_clk_wiz_0_0/clkwiz_clk_wiz_0_0/clkwiz_clk_wiz_0_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  e:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.srcs/sources_1/bd/clkwiz/ip/clkwiz_clk_wiz_0_0/clkwiz_clk_wiz_0_0/clkwiz_clk_wiz_0_0_in_context.xdc, line 4).
+Applied set_property DONT_TOUCH = true for nolabel_line53/blkmem_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for nolabel_line53/blkmem_i/blk_mem_gen_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for nolabel_line39/clkwiz_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for nolabel_line39/clkwiz_i/clk_wiz_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 808.301 ; gain = 493.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 808.301 ; gain = 493.648
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 4     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module display_test 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 4     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3917] design display_test has port DATAenable driven by constant 1
+WARNING: [Synth 8-3917] design display_test has port DISPON driven by constant 1
+WARNING: [Synth 8-3331] design display_test has unconnected port reset
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 808.301 ; gain = 493.648
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'nolabel_line39/clkwiz_i/clk_wiz_0/clk_out1' to pin 'nolabel_line39/clkwiz_i/clk_wiz_0/bbstub_clk_out1/O'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 819.141 ; gain = 504.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 841.816 ; gain = 527.164
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 841.816 ; gain = 527.164
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 841.816 ; gain = 527.164
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 841.816 ; gain = 527.164
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 841.816 ; gain = 527.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 841.816 ; gain = 527.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 841.816 ; gain = 527.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 841.816 ; gain = 527.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------------+----------+
+|      |BlackBox name          |Instances |
++------+-----------------------+----------+
+|1     |clkwiz_clk_wiz_0_0     |         1|
+|2     |blkmem_blk_mem_gen_0_0 |         1|
++------+-----------------------+----------+
+
+Report Cell Usage: 
++------+-----------------------+------+
+|      |Cell                   |Count |
++------+-----------------------+------+
+|1     |blkmem_blk_mem_gen_0_0 |     1|
+|2     |clkwiz_clk_wiz_0_0     |     1|
+|3     |BUFG                   |     1|
+|4     |CARRY4                 |     9|
+|5     |LUT1                   |     1|
+|6     |LUT2                   |     8|
+|7     |LUT3                   |    18|
+|8     |LUT4                   |    13|
+|9     |LUT5                   |    19|
+|10    |LUT6                   |    43|
+|11    |FDRE                   |    22|
+|12    |OBUF                   |    17|
++------+-----------------------+------+
+
+Report Instance Areas: 
++------+-----------------+---------------+------+
+|      |Instance         |Module         |Cells |
++------+-----------------+---------------+------+
+|1     |top              |               |   164|
+|2     |  nolabel_line39 |clkwiz_wrapper |     1|
+|3     |    clkwiz_i     |clkwiz         |     1|
+|4     |  nolabel_line53 |blkmem_wrapper |    37|
+|5     |    blkmem_i     |blkmem         |    12|
++------+-----------------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 841.816 ; gain = 527.164
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 841.816 ; gain = 179.949
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 841.816 ; gain = 527.164
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 841.816 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+31 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 841.816 ; gain = 536.586
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 841.816 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'E:/Xilinx/workspace/PYNQ_Z2/DisplayTest/DisplayTest.runs/synth_1/display_test.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file display_test_utilization_synth.rpt -pb display_test_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Jan 26 23:27:15 2020...

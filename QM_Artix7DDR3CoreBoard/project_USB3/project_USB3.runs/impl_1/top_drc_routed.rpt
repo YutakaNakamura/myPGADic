@@ -1,0 +1,248 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Feb 18 21:37:01 2020
+| Host         : DESKTOP-AO3CL7T running 64-bit major release  (build 9200)
+| Command      : report_drc -file top_drc_routed.rpt -pb top_drc_routed.pb -rpx top_drc_routed.rpx
+| Design       : top
+| Device       : xc7a35tftg256-1
+| Speed File   : -1
+| Design State : Fully Routed
+---------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 39
++----------+----------+-----------------------------------------------------+------------+
+| Rule     | Severity | Description                                         | Violations |
++----------+----------+-----------------------------------------------------+------------+
+| CFGBVS-1 | Warning  | Missing CFGBVS and CONFIG_VOLTAGE Design Properties | 1          |
+| PLCK-12  | Warning  | Clock Placer Checks                                 | 1          |
+| PLIO-3   | Warning  | Placement Constraints Check for IO constraints      | 2          |
+| RPBF-3   | Warning  | IO port buffering is incomplete                     | 35         |
++----------+----------+-----------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+CFGBVS-1#1 Warning
+Missing CFGBVS and CONFIG_VOLTAGE Design Properties  
+Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+Related violations: <none>
+
+PLCK-12#1 Warning
+Clock Placer Checks  
+Poor placement for routing between an IO pin and BUFG. 
+Resolution: Poor placement of an IO pin and a BUFG has resulted in the router using a non-dedicated path between the two.  There are several things that could trigger this DRC, each of which can cause unpredictable clock insertion delays that result in poor timing.  This DRC could be caused by any of the following: (a) a clock port was placed on a pin that is not a CCIO-pin (b)the BUFG has not been placed in the same half of the device or SLR as the CCIO-pin (c) a single ended clock has been placed on the N-Side of a differential pair CCIO-pin.
+ This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint is set to FALSE allowing your design to continue. The use of this override is highly discouraged as it may lead to very poor timing results. It is recommended that this error condition be corrected in the design.
+
+	IO_U7_IBUF[34]_inst (IBUF.O) is locked to R10
+	IO_U7_IBUF_BUFG[34]_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0
+
+Related violations: <none>
+
+PLIO-3#1 Warning
+Placement Constraints Check for IO constraints  
+Partially locked IO Bus is found. Following components of the IO Bus IO_U7[64:0] are not locked:  IO_U7[64] IO_U7[63] IO_U7[62] IO_U7[61] IO_U7[6] IO_U7[5] IO_U7[4] IO_U7[3] IO_U7[2] IO_U7[1] IO_U7[0]
+Related violations: <none>
+
+PLIO-3#2 Warning
+Placement Constraints Check for IO constraints  
+Partially locked IO Bus is found. Following components of the IO Bus IO_U8[64:0] are not locked:  IO_U8[64] IO_U8[63] IO_U8[62] IO_U8[61] IO_U8[12] IO_U8[11] IO_U8[6] IO_U8[5] IO_U8[4] IO_U8[3] IO_U8[2] IO_U8[1] IO_U8[0]
+Related violations: <none>
+
+RPBF-3#1 Warning
+IO port buffering is incomplete  
+Device port IO_U7[15] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#2 Warning
+IO port buffering is incomplete  
+Device port IO_U7[16] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#3 Warning
+IO port buffering is incomplete  
+Device port IO_U7[17] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#4 Warning
+IO port buffering is incomplete  
+Device port IO_U7[18] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#5 Warning
+IO port buffering is incomplete  
+Device port IO_U7[19] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#6 Warning
+IO port buffering is incomplete  
+Device port IO_U7[20] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#7 Warning
+IO port buffering is incomplete  
+Device port IO_U7[21] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#8 Warning
+IO port buffering is incomplete  
+Device port IO_U7[22] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#9 Warning
+IO port buffering is incomplete  
+Device port IO_U7[23] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#10 Warning
+IO port buffering is incomplete  
+Device port IO_U7[24] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#11 Warning
+IO port buffering is incomplete  
+Device port IO_U7[25] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#12 Warning
+IO port buffering is incomplete  
+Device port IO_U7[26] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#13 Warning
+IO port buffering is incomplete  
+Device port IO_U7[27] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#14 Warning
+IO port buffering is incomplete  
+Device port IO_U7[28] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#15 Warning
+IO port buffering is incomplete  
+Device port IO_U7[29] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#16 Warning
+IO port buffering is incomplete  
+Device port IO_U7[30] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#17 Warning
+IO port buffering is incomplete  
+Device port IO_U7[34] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#18 Warning
+IO port buffering is incomplete  
+Device port IO_U7[42] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#19 Warning
+IO port buffering is incomplete  
+Device port IO_U7[43] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#20 Warning
+IO port buffering is incomplete  
+Device port IO_U7[44] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#21 Warning
+IO port buffering is incomplete  
+Device port IO_U7[45] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#22 Warning
+IO port buffering is incomplete  
+Device port IO_U7[46] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#23 Warning
+IO port buffering is incomplete  
+Device port IO_U7[47] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#24 Warning
+IO port buffering is incomplete  
+Device port IO_U7[48] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#25 Warning
+IO port buffering is incomplete  
+Device port IO_U7[49] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#26 Warning
+IO port buffering is incomplete  
+Device port IO_U7[50] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#27 Warning
+IO port buffering is incomplete  
+Device port IO_U7[51] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#28 Warning
+IO port buffering is incomplete  
+Device port IO_U7[52] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#29 Warning
+IO port buffering is incomplete  
+Device port IO_U7[53] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#30 Warning
+IO port buffering is incomplete  
+Device port IO_U7[54] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#31 Warning
+IO port buffering is incomplete  
+Device port IO_U7[55] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#32 Warning
+IO port buffering is incomplete  
+Device port IO_U7[56] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#33 Warning
+IO port buffering is incomplete  
+Device port IO_U7[57] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#34 Warning
+IO port buffering is incomplete  
+Device port IO_U7[58] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+RPBF-3#35 Warning
+IO port buffering is incomplete  
+Device port IO_U8[57] expects both input and output buffering but the buffers are incomplete.
+Related violations: <none>
+
+

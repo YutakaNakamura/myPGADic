@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Jan  6 21:20:10 2019
+# Process ID: 12532
+# Current directory: E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test07_MicroSD_Test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent308 E:\Xilinx\Artix-7\Workspace-DDR3-DB2\Test07_MicroSD_Test\project_1.xpr
+# Log file: E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test07_MicroSD_Test/vivado.log
+# Journal file: E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test07_MicroSD_Test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Xilinx/Artix-7/Workspace-DDR3-DB2/Test07_MicroSD_Test/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 834.059 ; gain = 146.875
+update_compile_order -fileset sources_1
+reset_simulation -simset sim_1 -mode behavioral
+open_hw
+reset_simulation -simset sim_1 -mode behavioral
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jan  6 21:23:02 2019...
